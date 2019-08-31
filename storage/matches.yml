@@ -1,0 +1,1664 @@
+---
+- !ruby/object:JobPosting
+  company: Apple
+  description: |-
+    Summary
+
+    What time should I leave the house to get to my appointment? Which route should I take to avoid the freeway traffic? We believe these questions are important to you, and we strive to answer them for you.
+
+    We are the traffic team at Apple Maps and our main mission is to deliver accurate speeds and incidents for the world in realtime. We are seeking for a software engineer to help us design, build and scale the infrastructure to deliver traffic data quicker and more expertly, as well as data pipelines and tools that will help to enhance data quality. In this role you have an opportunity to work on some of the largest-scale services at Apple Maps.
+
+    As our team member, you will improve our customers' driving experiences, and your contributions will positively enhance traveller's across the globe.
+
+    Key Qualifications
+
+    Proven Scala and/or Java experience in production-level environment
+
+    At least 3 years building highly-available and scalable systems
+
+    Significant experience building backend concurrent systems on the JVM
+
+    Experience designing APIs/REST APIs
+
+    Good understanding of cloud technologies and Distributed Systems
+
+    You can debug production issues and are comfortable in front of a UNIX CLI
+
+    You are fluent in at least one scripting language (Bash, Python, Ruby, etc.)
+
+    You have a solid understanding of SQL/NoSQL databases
+
+    Strong communication skills and ability to work closely with others as well as independently
+
+    Strong problem solving and debugging skills
+
+    You are always looking to improve, refactor, automate and avoid duplication
+
+    You’re a self-starter and able to build collaborative relationships with technical and non-technical stakeholders
+
+    You like to work in an agile environment
+
+    Description
+
+    Our team's main responsibility is to measure and predict speeds for every road in the world, and all in real-time. These speed values heavily influence routing and ETAs, as well as traffic display on the map.
+
+    Our team drives the designs, crafts the solutions, and evaluates the systems that accurately process massive streams of location data. As one of our team members, you will enhance the quality of our traffic solutions, innovating features and functionality, along with improving the experiences of millions of users each and every single day.
+
+    In this role, you will be a key member of the team designing, implementing and evaluating large-scale systems that efficiently process large amounts of data in realtime and batch. Your work will help enhance the quality of our traffic solutions and you will make direct contributions towards scalability, performance and resilience; improving the navigation experience of millions of users each and every day.
+
+    Using your collaborative communication skills and passion to deliver great things, you will be working with a team of engineers, data scientists and traffic experts, ultimately building and scaling our infrastructure in order to deliver realtime data faster and more accurately, define pipelines to archive data, implement interfaces to fetch and conflate data from different sources and build the necessary tools to analyze traffic and increase the workability of our systems.
+
+    You are self-motivated, factual, and data driven person, and you communicate effectively. You have experience with backend, concurrent systems on the JVM, different databases and scripting languages. We support a production system and as such, support outside of standard business hours may occasionally be required to assist with various team and system needs such as pager-support for periodic 24/7 on-call duties, video calls, or other project requirements.
+
+    Education & Experience
+
+    BS or MS in Computer Science or a quantitative field and relevant experience is desired
+
+    Additional Requirements
+
+    While the following is not necessary, it would be a plus:
+
+    Experience with location data, Hadoop/Spark and web applications (HTML/CSS/JavaScript)
+
+    Industry
+    Consumer Electronics
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering Information Technology
+  id: urn:li:fs_normalized_jobPosting:1344386919
+  location: Cupertino, CA, US
+  position: Software Engineer - Maps Traffic Data Infrastructure
+  url: https://www.linkedin.com/jobs/view/1344386919/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=COMPANY_RECRUIT&refId=55b4a4e9-cf64-4c07-b3d0-98aa0898ea2d&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 30
+    text: |-
+      summary
+
+      what time should i leave the house to get to my appointment? which route should i take to avoid the freeway traffic? we believe these questions are important to you, and we strive to answer them for you.
+
+      we are the traffic team at apple maps and our main mission is to deliver accurate speeds and incidents for the world in realtime. we are seeking for a software engineer to help us design, build and scale the infrastructure to deliver traffic data quicker and more expertly, as well as data pipelines and tools that will help to enhance data quality. in this role you have an opportunity to work on some of the largest-scale services at apple maps.
+
+      as our team member, you will improve our customers' driving experiences, and your contributions will positively enhance traveller's across the globe.
+
+      key qualifications
+
+      proven scala and/or java experience in production-level environment
+
+      at least 3 years building highly-available and scalable systems
+
+      significant experience building backend concurrent systems on the jvm
+
+      experience designing apis/rest apis
+
+      good understanding of cloud technologies and distributed systems
+
+      you can debug production issues and are comfortable in front of a unix cli
+
+      you are fluent in at least one scripting language (bash, python, ruby, etc.)
+
+      you have a solid understanding of sql/nosql databases
+
+      strong communication skills and ability to work closely with others as well as independently
+
+      strong problem solving and debugging skills
+
+      you are always looking to improve, refactor, automate and avoid duplication
+
+      you’re a self-starter and able to build collaborative relationships with technical and non-technical stakeholders
+
+      you like to work in an agile environment
+
+      description
+
+      our team's main responsibility is to measure and predict speeds for every road in the world, and all in real-time. these speed values heavily influence routing and etas, as well as traffic display on the map.
+
+      our team drives the designs, crafts the solutions, and evaluates the systems that accurately process massive streams of location data. as one of our team members, you will enhance the quality of our traffic solutions, innovating features and functionality, along with improving the experiences of millions of users each and every single day.
+
+      in this role, you will be a key member of the team designing, implementing and evaluating large-scale systems that efficiently process large amounts of data in realtime and batch. your work will help enhance the quality of our traffic solutions and you will make direct contributions towards scalability, performance and resilience; improving the navigation experience of millions of users each and every day.
+
+      using your collaborative communication skills and passion to deliver great things, you will be working with a team of engineers, data scientists and traffic experts, ultimately building and scaling our infrastructure in order to deliver realtime data faster and more accurately, define pipelines to archive data, implement interfaces to fetch and conflate data from different sources and build the necessary tools to analyze traffic and increase the workability of our systems.
+
+      you are self-motivated, factual, and data driven person, and you communicate effectively. you have experience with backend, concurrent systems on the jvm, different databases and scripting languages. we support a production system and as such, support outside of standard business hours may occasionally be required to assist with various team and system needs such as pager-support for periodic 24/7 on-call duties, video calls, or other project requirements.
+
+      education & experience
+
+      bs or ms in computer science or a quantitative field and relevant experience is desired
+
+      additional requirements
+
+      while the following is not necessary, it would be a plus:
+
+      experience with location data, hadoop/spark and web applications (html/css/javascript)
+
+      industry
+      consumer electronics
+      employment type
+      full-time
+      job functions
+      engineering information technology
+    bad_matches: []
+    good_matches:
+    - ruby
+    - javascript
+    - html
+    - css
+  review_status: :dont_want
+- !ruby/object:JobPosting
+  company: Apple
+  description: |-
+    Summary
+
+    Do you love creating elegant solutions to highly complex challenges? Do you intrinsically see the importance in every detail? As part of our Silicon Technologies group, you’ll help design and manufacture our next-generation, high-performance, power-efficient processor, system-on-chip (SoC). You’ll ensure Apple products and services can seamlessly and efficiently handle the tasks that make them beloved by millions. Joining this group means you’ll be responsible for crafting and building the technology that fuels Apple’s devices. Together, you and your team will enable our customers to do all the things they love with their devices.
+
+    Apple is looking for an individual who is passionate about joining Apple’s engineering team in Cupertino, California as a Javascript Web Developer. The Hardware Technologies team designs the best silicon on the planet and you could be a key part of enabling our success. This role is working on a team that interacts with many subsystems and thousands of people. As such, there are many opportunities to grow into new areas beyond the core requirements.
+
+    Key Qualifications
+
+    Deep understanding of front end Javascript development is required
+    Expertise with Javascript libraries such as ReactJS and Redux is required
+    Experience with Groovy scripting and Java development is a plus
+    Experience with developing for Atlassian tools (Jira, Confluence, Service Desk) including integrating with non-Atlassian applications like Slack, TeamCity, and Gitlab is helpful. Experience administrating those Atlassian systems is also a plus.
+    Experience with MySQL a plus.
+    Linux system experience including scripting in Python, Perl, etc. is beneficial.
+
+    Description
+
+    In this role, you will have the opportunity to interact directly with our users and management to understand their requirements and impact their experience through the design and implementation of new features and customizations.
+
+    Are you a Javascript expert? Do you take pride in building custom tools to meet others needs? Then you would be an excellent addition to our team. We use many front end technologies such as Javascript, ReactJS, HTML, CSS and also build many macros around Atlassian products and scripts in a linux environment. If you are a Javascript front end developer who wishes to expand their experiences in a number of different directions we want to hear from you!
+
+    Education & Experience
+
+    BS in Computer Science or equivalent degree in technical discipline required.
+
+    Industry
+    Consumer Electronics
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering Information Technology
+  id: urn:li:fs_normalized_jobPosting:1344383578
+  location: Cupertino, CA, US
+  position: Javascript Developer
+  url: https://www.linkedin.com/jobs/view/1344383578/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=IN_NETWORK&refId=69c1919c-521f-4040-8c5a-1f38a3452bab&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 40
+    text: |-
+      summary
+
+      do you love creating elegant solutions to highly complex challenges? do you intrinsically see the importance in every detail? as part of our silicon technologies group, you’ll help design and manufacture our next-generation, high-performance, power-efficient processor, system-on-chip (soc). you’ll ensure apple products and services can seamlessly and efficiently handle the tasks that make them beloved by millions. joining this group means you’ll be responsible for crafting and building the technology that fuels apple’s devices. together, you and your team will enable our customers to do all the things they love with their devices.
+
+      apple is looking for an individual who is passionate about joining apple’s engineering team in cupertino, california as a javascript web developer. the hardware technologies team designs the best silicon on the planet and you could be a key part of enabling our success. this role is working on a team that interacts with many subsystems and thousands of people. as such, there are many opportunities to grow into new areas beyond the core requirements.
+
+      key qualifications
+
+      deep understanding of front end javascript development is required
+      expertise with javascript libraries such as reactjs and redux is required
+      experience with groovy scripting and java development is a plus
+      experience with developing for atlassian tools (jira, confluence, service desk) including integrating with non-atlassian applications like slack, teamcity, and gitlab is helpful. experience administrating those atlassian systems is also a plus.
+      experience with mysql a plus.
+      linux system experience including scripting in python, perl, etc. is beneficial.
+
+      description
+
+      in this role, you will have the opportunity to interact directly with our users and management to understand their requirements and impact their experience through the design and implementation of new features and customizations.
+
+      are you a javascript expert? do you take pride in building custom tools to meet others needs? then you would be an excellent addition to our team. we use many front end technologies such as javascript, reactjs, html, css and also build many macros around atlassian products and scripts in a linux environment. if you are a javascript front end developer who wishes to expand their experiences in a number of different directions we want to hear from you!
+
+      education & experience
+
+      bs in computer science or equivalent degree in technical discipline required.
+
+      industry
+      consumer electronics
+      employment type
+      full-time
+      job functions
+      engineering information technology
+    bad_matches: []
+    good_matches:
+    - react
+    - javascript
+    - redux
+    - html
+    - css
+  review_status: :dont_want
+- !ruby/object:JobPosting
+  company: Microsoft
+  description: |-
+    Any Developer. Any App. Any Platform.
+
+    Microsoft is committed to deliver products that empower every developer and every dev team on the planet to achieve more. Come join the team responsible for delivering the Electron family of products. It's an incredibly rich space with many challenging technical problems begging for well-designed, well-executed and innovative solutions.
+
+    Electron is an open source project for writing Desktop Applications with JavaScript, HTML, and CSS. It combines Node.js and Google’s Chromium to allow developers utilize the entire web standard and combine it with the wide array of resources provided by the npm registry. Electron is the engine that powers popular applications like Skype, MS Teams, VS Code, Slack, WhatsApp, Discord, OpenFin, Ring Central, Figma, InVision, and many more.
+
+    Electron is everywhere from the desktop of a software developer, to large enterprises, to financial institutions. The work you do impacts millions of people every day. It helps a wide spectrum of developers all the way from professional developers to middle school students. We create solutions together in a rich, collaborative environment and while we work hard together, work/life balance and having fun are also core values. Make your mark, make an impact, and make developers the most successful and productive developers in the world!
+
+    Responsibilities
+
+    We are looking for a principal software engineer to
+    Provide technical guidance to a team of software engineers
+    Guide team members with carefully crafted feedback as they make inroads to the project
+    Update, improve, and maintain Electron for the over 100M desktops that rely on Electron as part of their favorite suite of applications;
+    Upstream changes and fixes to Google’s Chromium and V8, and The Linux Foundation’s Node.js project as necessary;
+    Act as a steward of a multi-company open source project;
+    Be an active participant in the evolving PWA web standard.
+
+    You will have an opportunity to partner with other teams across the MS Teams, VS Code, Chromium and Node, to deliver innovative platform services beyond those of PWA. We want to ensure Electron platform remains the preferred platform for the Desktop development.
+
+    You will work in a collaborative environment to build features in tools & services, ship them to customers frequently and learn from customer feedback. You will build simple and empowering experiences on desktop, highly scalable cloud services that the tools will connect to, and systems that monitor the health of the services. The software you build will help millions of developers all over the world reach their potential.
+
+    You will become part of a team where learning from peers and the open source community is a core principle.
+
+    Qualifications
+
+    Basic Qualifications:
+
+    7+ years of experience developing commercial software and/or services
+
+    Preferred Qualifications
+
+    8+ years of experience developing Web-based frameworks and/or platforms
+
+    Strong design and development experience that includes development in C++/JavaScript, preferably with distributed programming models
+
+    Passion in building and designing very large-scale and secure systems; prior experience in building large scale systems is a big plus.
+
+    The ability to multi-task while balancing short term and long-term needs is essential
+
+    Demonstrated problem solving and debugging skills.
+
+    Ability to learn and grasp concepts quickly in a fast-paced environment is critical to success.
+
+    Ability to triage customer requirements, prioritize, implement and iterate with the customer for feedback.
+
+    Ability to meet Microsoft, customer and/or government security screening requirements are required for this role. These requirements include, but are not limited to the following specialized security screenings: Microsoft Cloud Background Check: This position will be required to pass the Microsoft Cloud background check upon hire/transfer and every two years thereafter.
+
+    DDJL
+
+    Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, color, family or medical care leave, gender identity or expression, genetic information, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran status, race, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable laws, regulations and ordinances. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please send a request via the Accommodation request form.
+
+    Benefits/perks listed below may vary depending on the nature of your employment with Microsoft and the country where you work.
+    Industry
+    Computer Hardware Computer Software Information Technology & Services
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering Information Technology
+  id: urn:li:fs_normalized_jobPosting:1445172042
+  location: Mountain View, CA, US
+  position: Principal Software Engineer
+  url: https://www.linkedin.com/jobs/view/1445172042/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=SALARY&refId=b2b59490-8d16-4d2f-8349-7af5fa948751&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 30
+    text: |-
+      any developer. any app. any platform.
+
+      microsoft is committed to deliver products that empower every developer and every dev team on the planet to achieve more. come join the team responsible for delivering the electron family of products. it's an incredibly rich space with many challenging technical problems begging for well-designed, well-executed and innovative solutions.
+
+      electron is an open source project for writing desktop applications with javascript, html, and css. it combines node.js and google’s chromium to allow developers utilize the entire web standard and combine it with the wide array of resources provided by the npm registry. electron is the engine that powers popular applications like skype, ms teams, vs code, slack, whatsapp, discord, openfin, ring central, figma, invision, and many more.
+
+      electron is everywhere from the desktop of a software developer, to large enterprises, to financial institutions. the work you do impacts millions of people every day. it helps a wide spectrum of developers all the way from professional developers to middle school students. we create solutions together in a rich, collaborative environment and while we work hard together, work/life balance and having fun are also core values. make your mark, make an impact, and make developers the most successful and productive developers in the world!
+
+      responsibilities
+
+      we are looking for a principal software engineer to
+      provide technical guidance to a team of software engineers
+      guide team members with carefully crafted feedback as they make inroads to the project
+      update, improve, and maintain electron for the over 100m desktops that rely on electron as part of their favorite suite of applications;
+      upstream changes and fixes to google’s chromium and v8, and the linux foundation’s node.js project as necessary;
+      act as a steward of a multi-company open source project;
+      be an active participant in the evolving pwa web standard.
+
+      you will have an opportunity to partner with other teams across the ms teams, vs code, chromium and node, to deliver innovative platform services beyond those of pwa. we want to ensure electron platform remains the preferred platform for the desktop development.
+
+      you will work in a collaborative environment to build features in tools & services, ship them to customers frequently and learn from customer feedback. you will build simple and empowering experiences on desktop, highly scalable cloud services that the tools will connect to, and systems that monitor the health of the services. the software you build will help millions of developers all over the world reach their potential.
+
+      you will become part of a team where learning from peers and the open source community is a core principle.
+
+      qualifications
+
+      basic qualifications:
+
+      7+ years of experience developing commercial software and/or services
+
+      preferred qualifications
+
+      8+ years of experience developing web-based frameworks and/or platforms
+
+      strong design and development experience that includes development in c++/javascript, preferably with distributed programming models
+
+      passion in building and designing very large-scale and secure systems; prior experience in building large scale systems is a big plus.
+
+      the ability to multi-task while balancing short term and long-term needs is essential
+
+      demonstrated problem solving and debugging skills.
+
+      ability to learn and grasp concepts quickly in a fast-paced environment is critical to success.
+
+      ability to triage customer requirements, prioritize, implement and iterate with the customer for feedback.
+
+      ability to meet microsoft, customer and/or government security screening requirements are required for this role. these requirements include, but are not limited to the following specialized security screenings: microsoft cloud background check: this position will be required to pass the microsoft cloud background check upon hire/transfer and every two years thereafter.
+
+      ddjl
+
+      microsoft is an equal opportunity employer. all qualified applicants will receive consideration for employment without regard to age, ancestry, color, family or medical care leave, gender identity or expression, genetic information, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran status, race, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable laws, regulations and ordinances. we also consider qualified applicants regardless of criminal histories, consistent with legal requirements. if you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please send a request via the accommodation request form.
+
+      benefits/perks listed below may vary depending on the nature of your employment with microsoft and the country where you work.
+      industry
+      computer hardware computer software information technology & services
+      employment type
+      full-time
+      job functions
+      engineering information technology
+    bad_matches: []
+    good_matches:
+    - javascript
+    - html
+    - css
+    - learn
+    - learning
+  review_status: :dont_want
+- !ruby/object:JobPosting
+  company: Microsoft
+  description: |-
+    Any Developer. Any App. Any Platform.
+
+    Microsoft is committed to deliver products that empower every developer and every dev team on the planet to achieve more. Come join the team responsible for delivering the Electron family of products. It's an incredibly rich space with many challenging technical problems begging for well-designed, well-executed and innovative solutions.
+
+    Electron is an open source project for writing Desktop Applications with JavaScript, HTML, and CSS. It combines Node.js and Google’s Chromium to allow developers utilize the entire web standard and combine it with the wide array of resources provided by the npm registry. Electron is the engine that powers popular applications like Skype, MS Teams, VS Code, Slack, WhatsApp, Discord, OpenFin, Ring Central, Figma, InVision, and many more.
+
+    Electron is everywhere from the desktop of a software developer, to large enterprises, to financial institutions. The work you do impacts millions of people every day. It helps a wide spectrum of developers all the way from professional developers to middle school students. We create solutions together in a rich, collaborative environment and while we work hard together, work/life balance and having fun are also core values. Make your mark, make an impact, and make developers the most successful and productive developers in the world!
+
+    Responsibilities
+
+    We are looking for a principal manager to
+    Manage the team working on the Electron project
+    Define and manage the team priorities
+    Coordinate execution with the product management organization
+    Guide team members with carefully crafted feedback
+    Update, improve, and maintain Electron for the over 100M desktops that rely on Electron as part of their favorite suite of applications;
+    Upstream changes and fixes to Google’s Chromium and V8, and The Linux Foundation’s Node.js project as necessary;
+    Act as a steward of a multi-company open source project;
+    Be an active participant in the evolving PWA web standard.
+
+    You will have an opportunity to partner with other teams across the MS Teams, VS Code, Chromium and Node, to deliver innovative platform services beyond those of PWA. We want to ensure Electron platform remains the preferred platform for the Desktop development.
+
+    You will work in a collaborative environment to build features in tools & services, ship them to customers frequently and learn from customer feedback. You will build simple and empowering experiences on desktop, highly scalable cloud services that the tools will connect to, and systems that monitor the health of the services. The software you build will help millions of developers all over the world reach their potential.
+
+    You will become part of a team where learning from peers and the open source community is a core principle.
+
+    Qualifications
+
+    Basic Qualifications:
+
+    7+ years of experience developing commercial software and/or service
+
+    Preferred Qualifications
+
+    8+ years of experience developing Web-based frameworks and/or platforms
+
+    Strong design and development experience that includes development in C++/JavaScript, preferably with distributed programming models
+
+    Passion in building and designing very large-scale and secure systems; prior experience in building large scale systems
+
+    The ability to multi-task while balancing short term and long-term needs is essential
+
+    Demonstrated problem solving and debugging skills
+
+    Ability to learn and grasp concepts quickly in a fast-paced environment is critical to success
+
+    Ability to triage customer requirements, prioritize, implement and iterate with the customer for feedback
+
+    Ability to meet Microsoft, customer and/or government security screening requirements are required for this role. These requirements include, but are not limited to the following specialized security screenings: Microsoft Cloud Background Check: This position will be required to pass the Microsoft Cloud background check upon hire/transfer and every two years thereafter.
+
+    DDJL
+
+    Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, color, family or medical care leave, gender identity or expression, genetic information, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran status, race, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable laws, regulations and ordinances. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please send a request via the Accommodation request form.
+
+    Benefits/perks listed below may vary depending on the nature of your employment with Microsoft and the country where you work.
+    Industry
+    Computer Hardware Computer Software Information Technology & Services
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering Information Technology
+  id: urn:li:fs_normalized_jobPosting:1445169895
+  location: Mountain View, CA, US
+  position: Principal Software Engineering Manager
+  url: https://www.linkedin.com/jobs/view/1445169895/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=SALARY&refId=b2b59490-8d16-4d2f-8349-7af5fa948751&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 30
+    text: |-
+      any developer. any app. any platform.
+
+      microsoft is committed to deliver products that empower every developer and every dev team on the planet to achieve more. come join the team responsible for delivering the electron family of products. it's an incredibly rich space with many challenging technical problems begging for well-designed, well-executed and innovative solutions.
+
+      electron is an open source project for writing desktop applications with javascript, html, and css. it combines node.js and google’s chromium to allow developers utilize the entire web standard and combine it with the wide array of resources provided by the npm registry. electron is the engine that powers popular applications like skype, ms teams, vs code, slack, whatsapp, discord, openfin, ring central, figma, invision, and many more.
+
+      electron is everywhere from the desktop of a software developer, to large enterprises, to financial institutions. the work you do impacts millions of people every day. it helps a wide spectrum of developers all the way from professional developers to middle school students. we create solutions together in a rich, collaborative environment and while we work hard together, work/life balance and having fun are also core values. make your mark, make an impact, and make developers the most successful and productive developers in the world!
+
+      responsibilities
+
+      we are looking for a principal manager to
+      manage the team working on the electron project
+      define and manage the team priorities
+      coordinate execution with the product management organization
+      guide team members with carefully crafted feedback
+      update, improve, and maintain electron for the over 100m desktops that rely on electron as part of their favorite suite of applications;
+      upstream changes and fixes to google’s chromium and v8, and the linux foundation’s node.js project as necessary;
+      act as a steward of a multi-company open source project;
+      be an active participant in the evolving pwa web standard.
+
+      you will have an opportunity to partner with other teams across the ms teams, vs code, chromium and node, to deliver innovative platform services beyond those of pwa. we want to ensure electron platform remains the preferred platform for the desktop development.
+
+      you will work in a collaborative environment to build features in tools & services, ship them to customers frequently and learn from customer feedback. you will build simple and empowering experiences on desktop, highly scalable cloud services that the tools will connect to, and systems that monitor the health of the services. the software you build will help millions of developers all over the world reach their potential.
+
+      you will become part of a team where learning from peers and the open source community is a core principle.
+
+      qualifications
+
+      basic qualifications:
+
+      7+ years of experience developing commercial software and/or service
+
+      preferred qualifications
+
+      8+ years of experience developing web-based frameworks and/or platforms
+
+      strong design and development experience that includes development in c++/javascript, preferably with distributed programming models
+
+      passion in building and designing very large-scale and secure systems; prior experience in building large scale systems
+
+      the ability to multi-task while balancing short term and long-term needs is essential
+
+      demonstrated problem solving and debugging skills
+
+      ability to learn and grasp concepts quickly in a fast-paced environment is critical to success
+
+      ability to triage customer requirements, prioritize, implement and iterate with the customer for feedback
+
+      ability to meet microsoft, customer and/or government security screening requirements are required for this role. these requirements include, but are not limited to the following specialized security screenings: microsoft cloud background check: this position will be required to pass the microsoft cloud background check upon hire/transfer and every two years thereafter.
+
+      ddjl
+
+      microsoft is an equal opportunity employer. all qualified applicants will receive consideration for employment without regard to age, ancestry, color, family or medical care leave, gender identity or expression, genetic information, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran status, race, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable laws, regulations and ordinances. we also consider qualified applicants regardless of criminal histories, consistent with legal requirements. if you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please send a request via the accommodation request form.
+
+      benefits/perks listed below may vary depending on the nature of your employment with microsoft and the country where you work.
+      industry
+      computer hardware computer software information technology & services
+      employment type
+      full-time
+      job functions
+      engineering information technology
+    bad_matches: []
+    good_matches:
+    - javascript
+    - html
+    - css
+    - learn
+    - learning
+  review_status: :bad_match
+- !ruby/object:JobPosting
+  company: Microsoft
+  description: |-
+    Any Developer. Any App. Any Platform.
+
+    Microsoft is committed to deliver products that empower every developer and every dev team on the planet to achieve more. Come join the team responsible for delivering the Electron family of products. It's an incredibly rich space with many challenging technical problems begging for well-designed, well-executed and innovative solutions.
+
+    Electron is an open source project for writing Desktop Applications with JavaScript, HTML, and CSS. It combines Node.js and Google’s Chromium to allow developers utilize the entire web standard and combine it with the wide array of resources provided by the npm registry. Electron is the engine that powers popular applications like Skype, MS Teams, VS Code, Slack, WhatsApp, Discord, OpenFin, Ring Central, Figma, InVision, and many more.
+
+    Electron is everywhere from the desktop of a software developer, to large enterprises, to financial institutions. The work you do impacts millions of people every day. It helps a wide spectrum of developers all the way from professional developers to middle school students. We create solutions together in a rich, collaborative environment and while we work hard together, work/life balance and having fun are also core values. Make your mark, make an impact, and make developers the most successful and productive developers in the world!
+
+    Responsibilities
+
+    We are looking for a SWE II to
+    Update, improve, and maintain Electron for the over 100M desktops that rely on Electron as part of their favorite suite of applications
+    Upstream changes and fixes to Google’s Chromium and V8, and The Linux Foundation’s Node.js project as necessary
+    Act as a steward of a multi-company open source project
+    Be an active participant in the evolving PWA web standard
+
+    You will have an opportunity to partner with other teams across the MS Teams, VS Code, Chromium and Node, to deliver innovative platform services beyond those of PWA. We want to ensure Electron platform remains the preferred platform for the Desktop development.
+
+    You will work in a collaborative environment to build features in tools & services, ship them to customers frequently and learn from customer feedback. You will build simple and empowering experiences on desktop, highly scalable cloud services that the tools will connect to, and systems that monitor the health of the services. The software you build will help millions of developers all over the world reach their potential.
+
+    You will become part of a team where learning from peers and the open source community is a core principle.
+
+    Qualifications
+
+    Basic Qualifications:
+
+    2+ years of experience developing commercial software and/or services
+
+    Preferred Qualifications
+
+    4+ years of experience developing Web-based frameworks and/or platforms
+
+    Strong design and development experience that includes development in C++ / JavaScript, preferably with distributed programming models
+
+    Passion in building and designing very large-scale and secure systems; prior experience in building large scale systems
+
+    The ability to multi-task while balancing short term and long-term needs is essential
+
+    Demonstrated problem solving and debugging skills.
+
+    Ability to learn and grasp concepts quickly in a fast-paced environment is critical to success.
+
+    Ability to triage customer requirements, prioritize, implement and iterate with the customer for feedback.
+
+    Ability to meet Microsoft, customer and/or government security screening requirements are required for this role. These requirements include, but are not limited to the following specialized security screenings: Microsoft Cloud Background Check: This position will be required to pass the Microsoft Cloud background check upon hire/transfer and every two years thereafter.
+
+    DDJL
+
+    Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, color, family or medical care leave, gender identity or expression, genetic information, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran status, race, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable laws, regulations and ordinances. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please send a request via the Accommodation request form.
+
+    Benefits/perks listed below may vary depending on the nature of your employment with Microsoft and the country where you work.
+    Industry
+    Computer Hardware Computer Software Information Technology & Services
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering Information Technology
+  id: urn:li:fs_normalized_jobPosting:1445168992
+  location: Mountain View, CA, US
+  position: Software Engineer II
+  url: https://www.linkedin.com/jobs/view/1445168992/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=IN_NETWORK&refId=b2b59490-8d16-4d2f-8349-7af5fa948751&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 30
+    text: |-
+      any developer. any app. any platform.
+
+      microsoft is committed to deliver products that empower every developer and every dev team on the planet to achieve more. come join the team responsible for delivering the electron family of products. it's an incredibly rich space with many challenging technical problems begging for well-designed, well-executed and innovative solutions.
+
+      electron is an open source project for writing desktop applications with javascript, html, and css. it combines node.js and google’s chromium to allow developers utilize the entire web standard and combine it with the wide array of resources provided by the npm registry. electron is the engine that powers popular applications like skype, ms teams, vs code, slack, whatsapp, discord, openfin, ring central, figma, invision, and many more.
+
+      electron is everywhere from the desktop of a software developer, to large enterprises, to financial institutions. the work you do impacts millions of people every day. it helps a wide spectrum of developers all the way from professional developers to middle school students. we create solutions together in a rich, collaborative environment and while we work hard together, work/life balance and having fun are also core values. make your mark, make an impact, and make developers the most successful and productive developers in the world!
+
+      responsibilities
+
+      we are looking for a swe ii to
+      update, improve, and maintain electron for the over 100m desktops that rely on electron as part of their favorite suite of applications
+      upstream changes and fixes to google’s chromium and v8, and the linux foundation’s node.js project as necessary
+      act as a steward of a multi-company open source project
+      be an active participant in the evolving pwa web standard
+
+      you will have an opportunity to partner with other teams across the ms teams, vs code, chromium and node, to deliver innovative platform services beyond those of pwa. we want to ensure electron platform remains the preferred platform for the desktop development.
+
+      you will work in a collaborative environment to build features in tools & services, ship them to customers frequently and learn from customer feedback. you will build simple and empowering experiences on desktop, highly scalable cloud services that the tools will connect to, and systems that monitor the health of the services. the software you build will help millions of developers all over the world reach their potential.
+
+      you will become part of a team where learning from peers and the open source community is a core principle.
+
+      qualifications
+
+      basic qualifications:
+
+      2+ years of experience developing commercial software and/or services
+
+      preferred qualifications
+
+      4+ years of experience developing web-based frameworks and/or platforms
+
+      strong design and development experience that includes development in c++ / javascript, preferably with distributed programming models
+
+      passion in building and designing very large-scale and secure systems; prior experience in building large scale systems
+
+      the ability to multi-task while balancing short term and long-term needs is essential
+
+      demonstrated problem solving and debugging skills.
+
+      ability to learn and grasp concepts quickly in a fast-paced environment is critical to success.
+
+      ability to triage customer requirements, prioritize, implement and iterate with the customer for feedback.
+
+      ability to meet microsoft, customer and/or government security screening requirements are required for this role. these requirements include, but are not limited to the following specialized security screenings: microsoft cloud background check: this position will be required to pass the microsoft cloud background check upon hire/transfer and every two years thereafter.
+
+      ddjl
+
+      microsoft is an equal opportunity employer. all qualified applicants will receive consideration for employment without regard to age, ancestry, color, family or medical care leave, gender identity or expression, genetic information, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran status, race, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable laws, regulations and ordinances. we also consider qualified applicants regardless of criminal histories, consistent with legal requirements. if you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please send a request via the accommodation request form.
+
+      benefits/perks listed below may vary depending on the nature of your employment with microsoft and the country where you work.
+      industry
+      computer hardware computer software information technology & services
+      employment type
+      full-time
+      job functions
+      engineering information technology
+    bad_matches: []
+    good_matches:
+    - javascript
+    - html
+    - css
+    - learn
+    - learning
+  review_status: :dont_want
+- !ruby/object:JobPosting
+  company: Apple
+  description: |-
+    Summary
+
+    Apple’s Identity Management engineering team is building number of web applications and platform solutions that works across multiple platforms (iOS, OS X, Web). We work on many high-impact projects that serve various Apple lines of business. In this Front-End Software Engineer position, you will be working with a team of software engineers that are building cutting edge, fast and interactive web applications that incorporate the best user experience patterns and technologies available. You will work with some of the coolest people and technologies on the planet, including: OS X, iOS, JSON restful web services, and web platform technologies including Spring, Apache, and more.
+
+    Key Qualifications
+
+    5+ years of professional web applications development experience
+
+    Strong knowledge of JavaScript, JQuery, AJAX, OOJS, JS MVC frameworks
+
+    Experience with data-driven web development, including strong knowledge of HTML5, DHTML and CSS3
+
+    Front-end development experience in Java/J2EE application environments, preferably using MVC architectures
+
+    Significant experience developing and implementing UI/Front-end for high volume web applications.
+
+    Experience in developing secure web applications and knowledge of application vulnerabilities such as Cross Site Scripting (XSS), Cross Site Request Forgery (CSRF) etc.
+
+    Experience with templating libraries like Mustache and Handlebars
+
+    Experience in Cross-browser development and troubleshooting
+
+    Extensive use of APIs and a strong understanding of HTTP and REST architecture
+
+    Knowledge of design patterns, enterprise architecture and software engineering principles.
+
+    Good communication and personal skills: ability to interact and work well with members of other functional groups in a project team and a strong sense of project ownership
+
+    Very good experience in Scrum and Agile methodologies
+
+    Description
+
+    Join Apple’s Identity Management engineering team as a Front-End Software Engineer where you will help build innovative enterprise software applications. You will have development and implementation experience of large scale high-demand applications.
+
+    Your responsibilities will include all aspects of software development, from design and analysis to development, implementation and maintenance. You are a dedicated and hardworking individual. As a front-end software engineer, you will be a contributing member of a team that implements new product features, improves existing product features, while adding performance and software quality metrics to our codebase. You will work closely with business partners, other engineering teams, quality assurance, management, as well as human interface and user experience designers.
+
+    Responsibilities
+    Architect creative products, and innovate new technologies & solutions, play a hands-on development and design role, and deliver product in a rapid and dynamic environment.
+    You will work closely with design team and technical team to define new user interface behaviors, widgets and containers helping create a truly distinctive and extraordinary user experience.
+    Collaborate with peers on technical design, work estimation and implementation of new UI features including visualization aspects and server interfaces/contracts.
+    Work with project managers and technical teams, in a multi-functional environment, to implement quality products that meet the business goals.
+    Quickly build new ideas to get user feedback
+    Continually improving software development processes and practices
+    This challenging position will require a self-starter who can effectively manage numerous projects simultaneously, meet daring deadlines, and who thrives in a dynamic environment. You can expect a high-profile position on a phenomenal team with many challenges and rewards
+    Flexible and works well as part of a fast-paced product development team
+    Education & Experience
+    Bachelor's degree(B.S) or Masters (M.S) in Computer Science, or equivalent experience
+
+
+    Industry
+    Consumer Electronics
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering Information Technology
+  id: urn:li:fs_normalized_jobPosting:1385175112
+  location: Cupertino, CA, US
+  position: Frontend Enterprise Software Apps Engineer
+  url: https://www.linkedin.com/jobs/view/1385175112/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=HIDDEN_GEM&refId=4ba6538f-8c53-438a-9db4-2aa2855b31f7&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 30
+    text: |-
+      summary
+
+      apple’s identity management engineering team is building number of web applications and platform solutions that works across multiple platforms (ios, os x, web). we work on many high-impact projects that serve various apple lines of business. in this front-end software engineer position, you will be working with a team of software engineers that are building cutting edge, fast and interactive web applications that incorporate the best user experience patterns and technologies available. you will work with some of the coolest people and technologies on the planet, including: os x, ios, json restful web services, and web platform technologies including spring, apache, and more.
+
+      key qualifications
+
+      5+ years of professional web applications development experience
+
+      strong knowledge of javascript, jquery, ajax, oojs, js mvc frameworks
+
+      experience with data-driven web development, including strong knowledge of html5, dhtml and css3
+
+      front-end development experience in java/j2ee application environments, preferably using mvc architectures
+
+      significant experience developing and implementing ui/front-end for high volume web applications.
+
+      experience in developing secure web applications and knowledge of application vulnerabilities such as cross site scripting (xss), cross site request forgery (csrf) etc.
+
+      experience with templating libraries like mustache and handlebars
+
+      experience in cross-browser development and troubleshooting
+
+      extensive use of apis and a strong understanding of http and rest architecture
+
+      knowledge of design patterns, enterprise architecture and software engineering principles.
+
+      good communication and personal skills: ability to interact and work well with members of other functional groups in a project team and a strong sense of project ownership
+
+      very good experience in scrum and agile methodologies
+
+      description
+
+      join apple’s identity management engineering team as a front-end software engineer where you will help build innovative enterprise software applications. you will have development and implementation experience of large scale high-demand applications.
+
+      your responsibilities will include all aspects of software development, from design and analysis to development, implementation and maintenance. you are a dedicated and hardworking individual. as a front-end software engineer, you will be a contributing member of a team that implements new product features, improves existing product features, while adding performance and software quality metrics to our codebase. you will work closely with business partners, other engineering teams, quality assurance, management, as well as human interface and user experience designers.
+
+      responsibilities
+      architect creative products, and innovate new technologies & solutions, play a hands-on development and design role, and deliver product in a rapid and dynamic environment.
+      you will work closely with design team and technical team to define new user interface behaviors, widgets and containers helping create a truly distinctive and extraordinary user experience.
+      collaborate with peers on technical design, work estimation and implementation of new ui features including visualization aspects and server interfaces/contracts.
+      work with project managers and technical teams, in a multi-functional environment, to implement quality products that meet the business goals.
+      quickly build new ideas to get user feedback
+      continually improving software development processes and practices
+      this challenging position will require a self-starter who can effectively manage numerous projects simultaneously, meet daring deadlines, and who thrives in a dynamic environment. you can expect a high-profile position on a phenomenal team with many challenges and rewards
+      flexible and works well as part of a fast-paced product development team
+      education & experience
+      bachelor's degree(b.s) or masters (m.s) in computer science, or equivalent experience
+
+
+      industry
+      consumer electronics
+      employment type
+      full-time
+      job functions
+      engineering information technology
+    bad_matches: []
+    good_matches:
+    - javascript
+    - html
+    - css
+    - jquery
+  review_status: :dont_want
+- !ruby/object:JobPosting
+  company: Apple
+  description: |-
+    Summary
+
+    Imagine what you could do here. At Apple, new ideas have a way of becoming extraordinary products, services, and customer experiences very quickly. Bring passion and dedication to your job and there's no telling what you could accomplish.
+
+    Join the News team at Apple and help us craft a phenomenal user experience around news that delight millions of customers every single day! As a Full Stack Software Engineer on our team, you will be working with our editorial and analytics teams to build the tools that power Apple News.
+
+    Key Qualifications
+
+    Experience designing, implementing, and scaling Web services in Java and Spring
+    Experience with NoSQL data stores such as Cassandra and Solr
+    You are familiar with TDD, GIT, Jenkins, CICD
+    Experience with JavaScript, jQuery; experience with JavaScript Frameworks will be plus. e.g., Ember / Angular / React
+    You are a standout teammate, willing to take responsibility and ownership of product
+    You have strong analytical and problem solving skills
+
+    Description
+
+    Apple's News team is seeking a high-energy Full Stack Software Engineer to join our team working on the tools that we use internally to power Apple News. Capacity to work in a highly collaborative environment is required. The ideal candidate has experience with Java and Ember.js, has a keen eye for usability, and thrives on improving the design and architecture of a large system.
+
+    Education & Experience
+
+    A Bachelor's Degree in Computer Science is required or equivalent experience.
+
+    Industry
+    Consumer Electronics
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering Information Technology
+  id: urn:li:fs_normalized_jobPosting:1385168239
+  location: Cupertino, CA, US
+  position: Senior Full Stack Software Engineer - News
+  url: https://www.linkedin.com/jobs/view/1385168239/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=IN_NETWORK&refId=4ba6538f-8c53-438a-9db4-2aa2855b31f7&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 30
+    text: |-
+      summary
+
+      imagine what you could do here. at apple, new ideas have a way of becoming extraordinary products, services, and customer experiences very quickly. bring passion and dedication to your job and there's no telling what you could accomplish.
+
+      join the news team at apple and help us craft a phenomenal user experience around news that delight millions of customers every single day! as a full stack software engineer on our team, you will be working with our editorial and analytics teams to build the tools that power apple news.
+
+      key qualifications
+
+      experience designing, implementing, and scaling web services in java and spring
+      experience with nosql data stores such as cassandra and solr
+      you are familiar with tdd, git, jenkins, cicd
+      experience with javascript, jquery; experience with javascript frameworks will be plus. e.g., ember / angular / react
+      you are a standout teammate, willing to take responsibility and ownership of product
+      you have strong analytical and problem solving skills
+
+      description
+
+      apple's news team is seeking a high-energy full stack software engineer to join our team working on the tools that we use internally to power apple news. capacity to work in a highly collaborative environment is required. the ideal candidate has experience with java and ember.js, has a keen eye for usability, and thrives on improving the design and architecture of a large system.
+
+      education & experience
+
+      a bachelor's degree in computer science is required or equivalent experience.
+
+      industry
+      consumer electronics
+      employment type
+      full-time
+      job functions
+      engineering information technology
+    bad_matches: []
+    good_matches:
+    - react
+    - javascript
+    - jquery
+  review_status: :bad_match
+- !ruby/object:JobPosting
+  company: Apple
+  description: |-
+    Summary
+
+    Apple Maps is front and center on hundreds of millions of devices, and the Maps Infrastructure team designs and builds the platforms that power them all. We’re looking for exceptional engineers that live at the intersection of development, operations, data, and systems engineering to build solutions for large-scale continuous data transformation and delivery
+
+    Key Qualifications
+
+    You have solid experience developing large scale applications using Ruby or similar
+    Your proven ability to design, build and maintain large-scale applications and systems.
+    You have ability to develop innovative new applications, in addition to debugging and refactoring existing code.
+    Experience with common libraries such as RSpec and Resque.
+    Experience with relational and NoSQL databases (ie Postgresql and Redis).
+    Experience with Javascript, CSS and HTML.
+    Proficient understanding of code versioning tools (e.g. Git, or SVN), and their use in a CI/CD. environment.
+    You possess understanding of scalable distributed systems like Docker, Kubernetes, Hadoop, Kafka, Cassandra, and /or Solr.
+    You write clear, well-defined APIs.
+    Your'e proficient in shell scripting.
+    You have basic familiarity with networking systems, load balancers, and TCP/IP network constructs.
+    Knowledge of performance and reliability monitoring strategies.
+    Excellent communication and the ability to articulate design strategies across a variety of audiences.
+    Willingness to collaborate with peers both internal and across Maps.
+
+    Description
+
+    We build the tools and infrastructure that delivers Apple Maps to users. Success means performance, reliability, visibility, repeatability, and customer satisfaction. Our applications interact wit and control complex distributed systems and very large data sets while providing interfaces, processes, and workflows taht abstract complexity away for our users. Since we provide core infrastructure solutions for the whole organization, you will have the opportunity to interact with nearly every other Maps Team here at Apple. Our customers are Apple Maps users, but also internal developers, operations teams, and feature owners.
+
+    Education & Experience
+
+    BS or MS in Computer Science or equivalent industry experience
+
+    Industry
+    Consumer Electronics
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering Information Technology
+  id: urn:li:fs_normalized_jobPosting:1385168195
+  location: Cupertino, CA, US
+  position: Full Stack Software Engineer - Maps and Services Infrastructure
+  url: https://www.linkedin.com/jobs/view/1385168195/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=HIDDEN_GEM&refId=be179bd6-08fa-43e8-a8f1-e952aa8a9c9e&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 30
+    text: |-
+      summary
+
+      apple maps is front and center on hundreds of millions of devices, and the maps infrastructure team designs and builds the platforms that power them all. we’re looking for exceptional engineers that live at the intersection of development, operations, data, and systems engineering to build solutions for large-scale continuous data transformation and delivery
+
+      key qualifications
+
+      you have solid experience developing large scale applications using ruby or similar
+      your proven ability to design, build and maintain large-scale applications and systems.
+      you have ability to develop innovative new applications, in addition to debugging and refactoring existing code.
+      experience with common libraries such as rspec and resque.
+      experience with relational and nosql databases (ie postgresql and redis).
+      experience with javascript, css and html.
+      proficient understanding of code versioning tools (e.g. git, or svn), and their use in a ci/cd. environment.
+      you possess understanding of scalable distributed systems like docker, kubernetes, hadoop, kafka, cassandra, and /or solr.
+      you write clear, well-defined apis.
+      your'e proficient in shell scripting.
+      you have basic familiarity with networking systems, load balancers, and tcp/ip network constructs.
+      knowledge of performance and reliability monitoring strategies.
+      excellent communication and the ability to articulate design strategies across a variety of audiences.
+      willingness to collaborate with peers both internal and across maps.
+
+      description
+
+      we build the tools and infrastructure that delivers apple maps to users. success means performance, reliability, visibility, repeatability, and customer satisfaction. our applications interact wit and control complex distributed systems and very large data sets while providing interfaces, processes, and workflows taht abstract complexity away for our users. since we provide core infrastructure solutions for the whole organization, you will have the opportunity to interact with nearly every other maps team here at apple. our customers are apple maps users, but also internal developers, operations teams, and feature owners.
+
+      education & experience
+
+      bs or ms in computer science or equivalent industry experience
+
+      industry
+      consumer electronics
+      employment type
+      full-time
+      job functions
+      engineering information technology
+    bad_matches: []
+    good_matches:
+    - ruby
+    - javascript
+    - html
+    - css
+  review_status: :dont_want
+- !ruby/object:JobPosting
+  company: Zendesk
+  description: |-
+    Job Description
+
+    Our team focuses on the product concerns for Zendesk’s core product: The Support Ticket. We are a full-stack team responsible for making sure admins, agents and end-users alike are capable of communicating easily and safely through Zendesk’s ticketing process. Along with building new features for our customers, our job is to ensure our systems are reliable, scalable and fast.
+
+    What You Get To Do Every Day
+    Make a complex ticketing system easy to understand and customizable to serve a multitude of customer needs.
+    Solve challenges across the web stack. Our work spans from styling HTML fields to optimizing database queries.
+    Participate in team discussions and code reviews to help craft our work, our process and our impact on our product and our customer.
+    What you bring to the role:
+    2+ years of experience in large-scale web application development with an expertise in React and/or Ruby on Rails.
+    Experience with database technologies, especially MySQL, Aurora, DynamoDB.
+    Curiosity in technology and customer discovery. You want to know everything about our product and how it runs so you can help deliver the best experience possible to our customers. You see knowledge gaps as an opportunity to learn not an area to avoid.
+    Eagerness to collaborate with others across the company to find the best solution. You will have amazing coworkers and the optimal path to success involves learning from and utilizing their expertise.
+    Empathy and communication skills to make sure you and those around you have a clear understanding of what we are trying to accomplish.
+    Bachelor’s Degree in Computer Science, Engineering, or equivalent
+    Nice to have:
+    Experience with web system technologies like nginx, memcached, Kubernetes.
+    Experience with Scala or Java.
+    Experience with message brokers and building event driven architectures, especially using Kafka.
+    Experience building observability tools for system health checks and/or performance optimization.
+
+    Zendesk builds software for better customer relationships. It empowers organizations to improve customer engagement and better understand their customers. Zendesk products are easy to use and implement. They give organizations the flexibility to move quickly, focus on innovation, and scale with their growth.
+
+    More than 100,000 paid customer accounts in over 150 countries and territories use Zendesk products. Based in San Francisco, Zendesk has operations in the United States, Europe, Asia, Australia, and South America.
+
+    Interested in knowing what we do in the community? Check out the Zendesk Neighbor Foundation to learn more about how we engage with, and provide support to, our local communities.
+
+    Zendesk is an equal opportunity employer, and we’re proud of our ongoing efforts to foster diversity & inclusion in the workplace. Individuals seeking employment at Zendesk are considered without regard to race, color, religion, national origin, age, sex, gender, gender identity, gender expression, sexual orientation, marital status, medical condition, ancestry, physical or mental disability, military or veteran status, or any other characteristic protected by applicable law.
+
+    By submitting your application, you agree that Zendesk may collect your personal data for recruiting, global organization planning, and related purposes. Zendesk's Candidate Privacy Notice explains what personal information Zendesk may process, where Zendesk may process your personal information, its purposes for processing your personal information, and the rights you can exercise over Zendesk’s use of your personal information.
+    Industry
+    Computer Software Information Technology & Services
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering Information Technology
+  id: urn:li:fs_normalized_jobPosting:1444291756
+  location: San Francisco, CA, US
+  position: Senior Software Engineer, Ticketing Product
+  url: https://www.linkedin.com/jobs/view/1444291756/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=IN_NETWORK&refId=ac03484d-74ed-49b5-8772-ab9e82175ed3&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 45
+    text: |-
+      job description
+
+      our team focuses on the product concerns for zendesk’s core product: the support ticket. we are a full-stack team responsible for making sure admins, agents and end-users alike are capable of communicating easily and safely through zendesk’s ticketing process. along with building new features for our customers, our job is to ensure our systems are reliable, scalable and fast.
+
+      what you get to do every day
+      make a complex ticketing system easy to understand and customizable to serve a multitude of customer needs.
+      solve challenges across the web stack. our work spans from styling html fields to optimizing database queries.
+      participate in team discussions and code reviews to help craft our work, our process and our impact on our product and our customer.
+      what you bring to the role:
+      2+ years of experience in large-scale web application development with an expertise in react and/or ruby on rails.
+      experience with database technologies, especially mysql, aurora, dynamodb.
+      curiosity in technology and customer discovery. you want to know everything about our product and how it runs so you can help deliver the best experience possible to our customers. you see knowledge gaps as an opportunity to learn not an area to avoid.
+      eagerness to collaborate with others across the company to find the best solution. you will have amazing coworkers and the optimal path to success involves learning from and utilizing their expertise.
+      empathy and communication skills to make sure you and those around you have a clear understanding of what we are trying to accomplish.
+      bachelor’s degree in computer science, engineering, or equivalent
+      nice to have:
+      experience with web system technologies like nginx, memcached, kubernetes.
+      experience with scala or java.
+      experience with message brokers and building event driven architectures, especially using kafka.
+      experience building observability tools for system health checks and/or performance optimization.
+
+      zendesk builds software for better customer relationships. it empowers organizations to improve customer engagement and better understand their customers. zendesk products are easy to use and implement. they give organizations the flexibility to move quickly, focus on innovation, and scale with their growth.
+
+      more than 100,000 paid customer accounts in over 150 countries and territories use zendesk products. based in san francisco, zendesk has operations in the united states, europe, asia, australia, and south america.
+
+      interested in knowing what we do in the community? check out the zendesk neighbor foundation to learn more about how we engage with, and provide support to, our local communities.
+
+      zendesk is an equal opportunity employer, and we’re proud of our ongoing efforts to foster diversity & inclusion in the workplace. individuals seeking employment at zendesk are considered without regard to race, color, religion, national origin, age, sex, gender, gender identity, gender expression, sexual orientation, marital status, medical condition, ancestry, physical or mental disability, military or veteran status, or any other characteristic protected by applicable law.
+
+      by submitting your application, you agree that zendesk may collect your personal data for recruiting, global organization planning, and related purposes. zendesk's candidate privacy notice explains what personal information zendesk may process, where zendesk may process your personal information, its purposes for processing your personal information, and the rights you can exercise over zendesk’s use of your personal information.
+      industry
+      computer software information technology & services
+      employment type
+      full-time
+      job functions
+      engineering information technology
+    bad_matches: []
+    good_matches:
+    - ruby
+    - rails
+    - react
+    - html
+    - learn
+    - learning
+  review_status: :bad_match
+- !ruby/object:JobPosting
+  company: Facebook
+  description: |-
+    Facebook's mission is to give people the power to build community and bring the world closer together. Through our family of apps and services, we're building a different kind of company that connects billions of people around the world, gives them ways to share what matters most to them, and helps bring people closer together. Whether we're creating new products or helping a small business expand its reach, people at Facebook are builders at heart. Our global teams are constantly iterating, solving problems, and working together to empower people around the world to build community and connect in meaningful ways. Together, we can help people build stronger communities - we're just getting started.
+
+    Facebook is seeking talented full-stack Software Engineers who would like an opportunity to join our one-year Rotational Engineering Program, helping us build applications & systems that will scale the company and make the world more open and connected. The Program is designed to offer experienced engineers a one-year rotation through different Facebook engineering departments to develop engineering skills and gain meaningful experience for the rest of their career. At the end of the term, successful participants will be invited to apply for a full-time position at the company. Facebook is committed to increasing the diversity of representation among our Computer Scientists and Software Engineers. We build products to connect the world, and this means we need teams that understand and reflect a broad range of experiences, backgrounds, identities, abilities and many other characteristics. The rotational engineering program is open to all qualified candidates. We strongly encourage candidates who are members of historically underrepresented groups and have non-traditional career paths to apply, including, but not limited to candidates from non-tech industries, candidates without Computer Science degrees who are self-taught, candidates starting second careers, re-entering the workforce, and those who have attended bootcamp-style programming courses.
+
+    Responsibilities
+    Full-stack product/systems development with a variety of languages such as C++, Java, PHP, JavaScript, etc.
+    Work closely with product management and UX design teams to define and refine feature specifications.
+    Design and develop front-end interfaces, underlying APIs, and backend systems across a number of programming languages with focus on JavaScript, React and PHP (Hack).
+    Learn, learn and learn.
+    Minimum Qualification
+    2+ years experience building software solutions in a corporate or start up engineering environment, or equivalent, using JavaScript, PHP, Python, Ruby, C++ and/or Java.
+    2+ years experience developing web applications.
+
+    Preferred Qualification
+    Bachelors degree in Computer Science/Math/Engineering, or equivalent educational experience.
+    Working knowledge of relational and non-relational databases and SQL.
+    Working knowledge of API design and distributed backend systems.
+    2+ years experience developing multi-tiered web apps.
+    Facebook is proud to be an Equal Opportunity and Affirmative Action employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. Facebook is committed to providing reasonable accommodations for candidates with disabilities in our recruiting process. If you need any assistance or accommodations due to a disability, please let us know at accommodations-ext@fb.com.
+    Industry
+    Internet
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering
+  id: urn:li:fs_normalized_jobPosting:1444283961
+  location: Menlo Park, CA, US
+  position: Rotational Software Engineer
+  url: https://www.linkedin.com/jobs/view/1444283961/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=HIDDEN_GEM&refId=7ef396ae-56bc-4f6f-a800-de84b021348b&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 45
+    text: |-
+      facebook's mission is to give people the power to build community and bring the world closer together. through our family of apps and services, we're building a different kind of company that connects billions of people around the world, gives them ways to share what matters most to them, and helps bring people closer together. whether we're creating new products or helping a small business expand its reach, people at facebook are builders at heart. our global teams are constantly iterating, solving problems, and working together to empower people around the world to build community and connect in meaningful ways. together, we can help people build stronger communities - we're just getting started.
+
+      facebook is seeking talented full-stack software engineers who would like an opportunity to join our one-year rotational engineering program, helping us build applications & systems that will scale the company and make the world more open and connected. the program is designed to offer experienced engineers a one-year rotation through different facebook engineering departments to develop engineering skills and gain meaningful experience for the rest of their career. at the end of the term, successful participants will be invited to apply for a full-time position at the company. facebook is committed to increasing the diversity of representation among our computer scientists and software engineers. we build products to connect the world, and this means we need teams that understand and reflect a broad range of experiences, backgrounds, identities, abilities and many other characteristics. the rotational engineering program is open to all qualified candidates. we strongly encourage candidates who are members of historically underrepresented groups and have non-traditional career paths to apply, including, but not limited to candidates from non-tech industries, candidates without computer science degrees who are self-taught, candidates starting second careers, re-entering the workforce, and those who have attended bootcamp-style programming courses.
+
+      responsibilities
+      full-stack product/systems development with a variety of languages such as c++, java, php, javascript, etc.
+      work closely with product management and ux design teams to define and refine feature specifications.
+      design and develop front-end interfaces, underlying apis, and backend systems across a number of programming languages with focus on javascript, react and php (hack).
+      learn, learn and learn.
+      minimum qualification
+      2+ years experience building software solutions in a corporate or start up engineering environment, or equivalent, using javascript, php, python, ruby, c++ and/or java.
+      2+ years experience developing web applications.
+
+      preferred qualification
+      bachelors degree in computer science/math/engineering, or equivalent educational experience.
+      working knowledge of relational and non-relational databases and sql.
+      working knowledge of api design and distributed backend systems.
+      2+ years experience developing multi-tiered web apps.
+      facebook is proud to be an equal opportunity and affirmative action employer. we do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics. we also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. facebook is committed to providing reasonable accommodations for candidates with disabilities in our recruiting process. if you need any assistance or accommodations due to a disability, please let us know at accommodations-ext@fb.com.
+      industry
+      internet
+      employment type
+      full-time
+      job functions
+      engineering
+    bad_matches: []
+    good_matches:
+    - ruby
+    - react
+    - javascript
+    - bootcamp
+    - learn
+  review_status: :interested
+- !ruby/object:JobPosting
+  company: Facebook
+  description: |-
+    Facebook's mission is to give people the power to build community and bring the world closer together. Through our family of apps and services, we're building a different kind of company that connects billions of people around the world, gives them ways to share what matters most to them, and helps bring people closer together. Whether we're creating new products or helping a small business expand its reach, people at Facebook are builders at heart. Our global teams are constantly iterating, solving problems, and working together to empower people around the world to build community and connect in meaningful ways. Together, we can help people build stronger communities - we're just getting started.
+
+    Facebook is seeking an experienced Software Engineer to join our Data Pipeline Platform team. Our mission is to enable Facebook to move fast, through data-driven decision making and to generate customer value from data. We are part of the broader Data Warehouse Infrastructure group.
+    The team builds the platform and tools that power large-scale data processing and analytics at Facebook. As an infrastructure team, we provide thousands of data engineers, data scientists, software engineers and analysts at Facebook, the tools and frameworks to manage the full lifecycle of data pipelines. This covers everything from authoring of the pipelines, to deployment, scheduling, monitoring and troubleshooting. We are focused on all workloads across streaming, batch and machine learning. Our work enables all of our products to make critical decisions and monitor outcomes.
+    We are looking for candidates who share a passion for building data tools, frameworks and platforms that enable others to move fast and be more productive. These building blocks must scale through multiple orders of magnitude, enabling Facebook analytics to be fast and high quality.
+
+    This position is full-time and is based in our main office in Menlo Park, CA.
+
+    Responsibilities
+    Design backend and frontend software components, and tools.
+    Code using primarily Python, Java, PHP/Hack, React.
+    Interface with other teams to collaborate in transforming the landscape.
+    Conduct design and code reviews.
+    Analyze and improve efficiency, scalability, and stability of various system resources.
+    Design, architect and implement a data flow platform for efficient data processing and machine learning.
+    Minimum Qualification
+    6+ years of coding experience in Java, C++ or C#.
+    2+ years of coding experience in Python, PHP/Hack or JavaScript.
+    2+ years of experience building on or managing data platforms, data infrastructure, metrics or pipeline management.
+
+    Preferred Qualification
+    B.S in Computer Science or related technical field.
+    Experience working directly with data engineer or data scientist teams.
+    Experience implementing or supporting data pipelines, in batch/streaming/ML systems (e.g. Spark, Flink, Hive, Presto, Kafka, Storm, Beam, Hadoop MapReduce).
+    Facebook is proud to be an Equal Opportunity and Affirmative Action employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. Facebook is committed to providing reasonable accommodations for candidates with disabilities in our recruiting process. If you need any assistance or accommodations due to a disability, please let us know at accommodations-ext@fb.com.
+    Industry
+    Internet
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering
+  id: urn:li:fs_normalized_jobPosting:1444285390
+  location: Menlo Park, CA, US
+  position: Software Engineer, Data Flow (Menlo Park)
+  url: https://www.linkedin.com/jobs/view/1444285390/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=HIDDEN_GEM&refId=32edc824-acc4-49de-a3fc-2a4ab4efe2d1&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 30
+    text: |-
+      facebook's mission is to give people the power to build community and bring the world closer together. through our family of apps and services, we're building a different kind of company that connects billions of people around the world, gives them ways to share what matters most to them, and helps bring people closer together. whether we're creating new products or helping a small business expand its reach, people at facebook are builders at heart. our global teams are constantly iterating, solving problems, and working together to empower people around the world to build community and connect in meaningful ways. together, we can help people build stronger communities - we're just getting started.
+
+      facebook is seeking an experienced software engineer to join our data pipeline platform team. our mission is to enable facebook to move fast, through data-driven decision making and to generate customer value from data. we are part of the broader data warehouse infrastructure group.
+      the team builds the platform and tools that power large-scale data processing and analytics at facebook. as an infrastructure team, we provide thousands of data engineers, data scientists, software engineers and analysts at facebook, the tools and frameworks to manage the full lifecycle of data pipelines. this covers everything from authoring of the pipelines, to deployment, scheduling, monitoring and troubleshooting. we are focused on all workloads across streaming, batch and machine learning. our work enables all of our products to make critical decisions and monitor outcomes.
+      we are looking for candidates who share a passion for building data tools, frameworks and platforms that enable others to move fast and be more productive. these building blocks must scale through multiple orders of magnitude, enabling facebook analytics to be fast and high quality.
+
+      this position is full-time and is based in our main office in menlo park, ca.
+
+      responsibilities
+      design backend and frontend software components, and tools.
+      code using primarily python, java, php/hack, react.
+      interface with other teams to collaborate in transforming the landscape.
+      conduct design and code reviews.
+      analyze and improve efficiency, scalability, and stability of various system resources.
+      design, architect and implement a data flow platform for efficient data processing and machine learning.
+      minimum qualification
+      6+ years of coding experience in java, c++ or c#.
+      2+ years of coding experience in python, php/hack or javascript.
+      2+ years of experience building on or managing data platforms, data infrastructure, metrics or pipeline management.
+
+      preferred qualification
+      b.s in computer science or related technical field.
+      experience working directly with data engineer or data scientist teams.
+      experience implementing or supporting data pipelines, in batch/streaming/ml systems (e.g. spark, flink, hive, presto, kafka, storm, beam, hadoop mapreduce).
+      facebook is proud to be an equal opportunity and affirmative action employer. we do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics. we also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. facebook is committed to providing reasonable accommodations for candidates with disabilities in our recruiting process. if you need any assistance or accommodations due to a disability, please let us know at accommodations-ext@fb.com.
+      industry
+      internet
+      employment type
+      full-time
+      job functions
+      engineering
+    bad_matches: []
+    good_matches:
+    - react
+    - javascript
+    - learn
+    - learning
+  review_status: :dont_want
+- !ruby/object:JobPosting
+  company: Facebook
+  description: |-
+    Facebook's mission is to give people the power to build community and bring the world closer together. Through our family of apps and services, we're building a different kind of company that connects billions of people around the world, gives them ways to share what matters most to them, and helps bring people closer together. Whether we're creating new products or helping a small business expand its reach, people at Facebook are builders at heart. Our global teams are constantly iterating, solving problems, and working together to empower people around the world to build community and connect in meaningful ways. Together, we can help people build stronger communities - we're just getting started.
+
+    The Open Source Developer Advocacy team is responsible for the relationship between the Facebook open source program and software developers from around the world. A Developer Advocate promotes standards and good development practices, by actively engaging with developer communities, raising awareness of the company’s developer-centric activities, and guiding and educating those developers that use Facebook open source offerings. This is a highly technical team, dedicated to open and honest communication, world-class software, and strong community citizenship.
+    You will interact with the most innovative engineers inside and outside of Facebook every day. You will write code samples, articles and tutorials for developers. You will highlight Facebook Open Source, a wide range of technology stacks, and many contemporary software techniques & trends – such as mobile and machine learning. You will represent Facebook at developer conferences, events, hackathons, and with the technical press and bloggers. You will work on open-source software projects in a variety of programming languages. And you will also advocate internally for the needs of the developer community, working with Facebook product and engineering teams to determine features and technology strategy.
+    We are looking for a Developer Advocate to strengthen our open source ecosystem, ensuring we have the best-in-class technology offerings, community management and developer representation around the globe.
+
+    Responsibilities
+    Create code samples, demos, articles and tutorials for a highly technical audience
+    Present technical sessions at conferences, running workshops and hands-on hackathons
+    Liaise with Facebook product and engineering teams to communicate third-party feedback
+    Assisting in the creation and maintenance of a variety of open-source projects
+    Shepherd open source projects from incubation to public release
+    Own and drive community engagement for high profile open source projects
+    Collaborate with internal teams to understand and vocalize open source strategies across a pillar of projects
+    Drive efficiency ideas to make our open source program processes more streamlined and effective
+    Establish and execute programs that help increase the awareness and reach of our open source brand
+    A willingness and ability to travel worldwide, extensively
+    Minimum Qualification
+    BA/BS in Computer Science, or an equivalent degree and experience
+    Experience of blogging, technical documentation, and developer outreach
+    Experience presenting to technical audiences
+    Coding experience in contemporary languages and environments – such as JavaScript, PHP, Objective-C, Java, .NET, Python, Ruby – and in the open-source community. Candidates will complete Facebook’s 6-week engineering bootcamp
+
+    Preferred Qualification
+    Knowledge of existing follower base of developers through social media, a blog, or books
+    Experience understanding the Facebook Open Source Programs and its offerings
+    Experience in the principles of social design
+    Facebook is proud to be an Equal Opportunity and Affirmative Action employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. Facebook is committed to providing reasonable accommodations for candidates with disabilities in our recruiting process. If you need any assistance or accommodations due to a disability, please let us know at accommodations-ext@fb.com.
+    Industry
+    Internet
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering
+  id: urn:li:fs_normalized_jobPosting:1444284354
+  location: Menlo Park, CA, US
+  position: Developer Advocate
+  url: https://www.linkedin.com/jobs/view/1444284354/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=IN_NETWORK&refId=28fd6b2a-1ed6-47d3-8d6d-f176923d05b0&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 40
+    text: |-
+      facebook's mission is to give people the power to build community and bring the world closer together. through our family of apps and services, we're building a different kind of company that connects billions of people around the world, gives them ways to share what matters most to them, and helps bring people closer together. whether we're creating new products or helping a small business expand its reach, people at facebook are builders at heart. our global teams are constantly iterating, solving problems, and working together to empower people around the world to build community and connect in meaningful ways. together, we can help people build stronger communities - we're just getting started.
+
+      the open source developer advocacy team is responsible for the relationship between the facebook open source program and software developers from around the world. a developer advocate promotes standards and good development practices, by actively engaging with developer communities, raising awareness of the company’s developer-centric activities, and guiding and educating those developers that use facebook open source offerings. this is a highly technical team, dedicated to open and honest communication, world-class software, and strong community citizenship.
+      you will interact with the most innovative engineers inside and outside of facebook every day. you will write code samples, articles and tutorials for developers. you will highlight facebook open source, a wide range of technology stacks, and many contemporary software techniques & trends – such as mobile and machine learning. you will represent facebook at developer conferences, events, hackathons, and with the technical press and bloggers. you will work on open-source software projects in a variety of programming languages. and you will also advocate internally for the needs of the developer community, working with facebook product and engineering teams to determine features and technology strategy.
+      we are looking for a developer advocate to strengthen our open source ecosystem, ensuring we have the best-in-class technology offerings, community management and developer representation around the globe.
+
+      responsibilities
+      create code samples, demos, articles and tutorials for a highly technical audience
+      present technical sessions at conferences, running workshops and hands-on hackathons
+      liaise with facebook product and engineering teams to communicate third-party feedback
+      assisting in the creation and maintenance of a variety of open-source projects
+      shepherd open source projects from incubation to public release
+      own and drive community engagement for high profile open source projects
+      collaborate with internal teams to understand and vocalize open source strategies across a pillar of projects
+      drive efficiency ideas to make our open source program processes more streamlined and effective
+      establish and execute programs that help increase the awareness and reach of our open source brand
+      a willingness and ability to travel worldwide, extensively
+      minimum qualification
+      ba/bs in computer science, or an equivalent degree and experience
+      experience of blogging, technical documentation, and developer outreach
+      experience presenting to technical audiences
+      coding experience in contemporary languages and environments – such as javascript, php, objective-c, java, .net, python, ruby – and in the open-source community. candidates will complete facebook’s 6-week engineering bootcamp
+
+      preferred qualification
+      knowledge of existing follower base of developers through social media, a blog, or books
+      experience understanding the facebook open source programs and its offerings
+      experience in the principles of social design
+      facebook is proud to be an equal opportunity and affirmative action employer. we do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics. we also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. facebook is committed to providing reasonable accommodations for candidates with disabilities in our recruiting process. if you need any assistance or accommodations due to a disability, please let us know at accommodations-ext@fb.com.
+      industry
+      internet
+      employment type
+      full-time
+      job functions
+      engineering
+    bad_matches: []
+    good_matches:
+    - ruby
+    - javascript
+    - bootcamp
+    - learn
+    - learning
+  review_status: :dont_want
+- !ruby/object:JobPosting
+  company: Facebook
+  description: |-
+    Facebook's mission is to give people the power to build community and bring the world closer together. Through our family of apps and services, we're building a different kind of company that connects billions of people around the world, gives them ways to share what matters most to them, and helps bring people closer together. Whether we're creating new products or helping a small business expand its reach, people at Facebook are builders at heart. Our global teams are constantly iterating, solving problems, and working together to empower people around the world to build community and connect in meaningful ways. Together, we can help people build stronger communities - we're just getting started.
+
+    We are the teams who create all of Facebook's products used by 1.5 billion plus people around the world. Want to build new features and improve existing products like Messenger, Video, Groups, News Feed, Search and more? Want to solve unique, large scale, highly complex technical problems? Facebook is seeking experienced Full-Stack Software Engineers to join our product teams. You can help build the next-generation of products that help us connect the next billion people, create new features that have billions of interactions per day and be a part of a team that’s working to help people connect with each other around the globe. Join us!This position is full-time and based in our Menlo Park, CA office.
+
+    Responsibilities
+    Full stack web/mobile application development with a variety of languages including but not limited to PHP, JavaScript, HTML, etc.
+    Create consumer products and features using internal programming language Hack
+    Implement web or mobile interfaces using XHTML, CSS, and JavaScript
+    Work closely with our PM and design teams to define feature specifications and build the next generation of products leveraging frameworks such as React & React Native
+    Work closely with operations and infrastructure to build and scale back-end services
+    Build report interfaces and data feeds
+    Minimum Qualification
+    5+ years of programming experience
+    5+ years of experience with relational databases and SQL
+    5+ years of experience with web technologies: JavaScript, XHTML, CSS
+
+    Preferred Qualification
+    B.S. or M.S. Computer Science or related field
+    Experience with PHP and C++
+    Facebook is proud to be an Equal Opportunity and Affirmative Action employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. Facebook is committed to providing reasonable accommodations for candidates with disabilities in our recruiting process. If you need any assistance or accommodations due to a disability, please let us know at accommodations-ext@fb.com.
+    Industry
+    Internet
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering
+  id: urn:li:fs_normalized_jobPosting:1444282844
+  location: Menlo Park, CA, US
+  position: Software Engineer, Product (Full Stack)
+  url: https://www.linkedin.com/jobs/view/1444282844/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=IN_NETWORK&refId=4e344a65-e654-42ae-9367-5a49f2d80491&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 30
+    text: |-
+      facebook's mission is to give people the power to build community and bring the world closer together. through our family of apps and services, we're building a different kind of company that connects billions of people around the world, gives them ways to share what matters most to them, and helps bring people closer together. whether we're creating new products or helping a small business expand its reach, people at facebook are builders at heart. our global teams are constantly iterating, solving problems, and working together to empower people around the world to build community and connect in meaningful ways. together, we can help people build stronger communities - we're just getting started.
+
+      we are the teams who create all of facebook's products used by 1.5 billion plus people around the world. want to build new features and improve existing products like messenger, video, groups, news feed, search and more? want to solve unique, large scale, highly complex technical problems? facebook is seeking experienced full-stack software engineers to join our product teams. you can help build the next-generation of products that help us connect the next billion people, create new features that have billions of interactions per day and be a part of a team that’s working to help people connect with each other around the globe. join us!this position is full-time and based in our menlo park, ca office.
+
+      responsibilities
+      full stack web/mobile application development with a variety of languages including but not limited to php, javascript, html, etc.
+      create consumer products and features using internal programming language hack
+      implement web or mobile interfaces using xhtml, css, and javascript
+      work closely with our pm and design teams to define feature specifications and build the next generation of products leveraging frameworks such as react & react native
+      work closely with operations and infrastructure to build and scale back-end services
+      build report interfaces and data feeds
+      minimum qualification
+      5+ years of programming experience
+      5+ years of experience with relational databases and sql
+      5+ years of experience with web technologies: javascript, xhtml, css
+
+      preferred qualification
+      b.s. or m.s. computer science or related field
+      experience with php and c++
+      facebook is proud to be an equal opportunity and affirmative action employer. we do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics. we also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. facebook is committed to providing reasonable accommodations for candidates with disabilities in our recruiting process. if you need any assistance or accommodations due to a disability, please let us know at accommodations-ext@fb.com.
+      industry
+      internet
+      employment type
+      full-time
+      job functions
+      engineering
+    bad_matches: []
+    good_matches:
+    - react
+    - javascript
+    - html
+    - css
+  review_status: :dont_want
+- !ruby/object:JobPosting
+  company: Zendesk
+  description: |-
+    Job Description
+
+    Our team, Spyglass, is part of the Core Services engineering organization. Our mission is to build and scale data compliance systems at Zendesk. We chose the name Spyglass because it evokes the idea of always looking ahead: we are charting the course for how these systems will evolve. Plus, we thought it would make a cool logo.
+
+    Our current project is to develop an orchestration framework that can handle different types of data management requests. Some examples include: honoring a user's "right to be forgotten," or moving our customers' data to a different geographical region to reduce latency. These operations require the participation of many teams and services. Effective technical communication—via documentation or pairing or meetings—is crucial to our success.
+
+    We are a small team trying to answer big questions: What is the right distributed transaction pattern for our use cases? How do we safely move terabytes of data across the world, without downtime and without putting too much load on the entire system? If you're intrigued and motivated by this problem space, we encourage you to apply.
+    Our responsibility to you
+    We will welcome and consider your recommendations for how to improve our code, architecture, documentation, and team processes
+    We make decisions openly
+    We foster a culture of belonging and inclusion
+    We will ensure there is a meaningful link to your contributions and the objectives of the company
+    We will help build your people-network internally
+    Your responsibilities at Zendesk
+    Build an orchestration framework used to coordinate long-lived operations across a collection of services
+    Ship reliable code and document it well
+    Contribute to our product and technical roadmaps
+    Communicate effectively and with empathy
+    Own the team’s services - you believe in taking ownership of infrastructure, design, development, testing, deployment, and are capable of debugging operational issues
+    You should have some of these skills:
+    Proficiency with at least one of the following languages: Ruby, Scala, Go, Java.
+    Ability to work through unfamiliar code and technologies.
+    A deep understanding of relational and non-relational storages and their trade-offs.
+    Experience with some of the more relevant technologies at Zendesk: MySQL, Aurora and DynamoDB.
+    Experience with event-driven, distributed architecture using Kafka, SNS/SQS.
+    Familiarity with at least one modern web frameworks (e.g. Rails, Finatra, Akka-Http).
+    Familiarity with AWS CLI and SDKs
+    Familiarity with or interest in “infrastructure as code” toolings such as Chef, Terraform, or CloudFormation
+
+    Zendesk builds software for better customer relationships. It empowers organizations to improve customer engagement and better understand their customers. Zendesk products are easy to use and implement. They give organizations the flexibility to move quickly, focus on innovation, and scale with their growth.
+
+    More than 100,000 paid customer accounts in over 150 countries and territories use Zendesk products. Based in San Francisco, Zendesk has operations in the United States, Europe, Asia, Australia, and South America.
+
+    Interested in knowing what we do in the community? Check out the Zendesk Neighbor Foundation to learn more about how we engage with, and provide support to, our local communities.
+
+    Zendesk is an equal opportunity employer, and we’re proud of our ongoing efforts to foster diversity & inclusion in the workplace. Individuals seeking employment at Zendesk are considered without regard to race, color, religion, national origin, age, sex, gender, gender identity, gender expression, sexual orientation, marital status, medical condition, ancestry, physical or mental disability, military or veteran status, or any other characteristic protected by applicable law.
+
+    By submitting your application, you agree that Zendesk may collect your personal data for recruiting, global organization planning, and related purposes. Zendesk's Candidate Privacy Notice explains what personal information Zendesk may process, where Zendesk may process your personal information, its purposes for processing your personal information, and the rights you can exercise over Zendesk’s use of your personal information.
+    Industry
+    Computer Software Information Technology & Services
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering Information Technology
+  id: urn:li:fs_normalized_jobPosting:1444291720
+  location: San Francisco, CA, US
+  position: Senior Software Engineer, Core Services
+  url: https://www.linkedin.com/jobs/view/1444291720/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=SALARY&refId=4e344a65-e654-42ae-9367-5a49f2d80491&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 30
+    text: |-
+      job description
+
+      our team, spyglass, is part of the core services engineering organization. our mission is to build and scale data compliance systems at zendesk. we chose the name spyglass because it evokes the idea of always looking ahead: we are charting the course for how these systems will evolve. plus, we thought it would make a cool logo.
+
+      our current project is to develop an orchestration framework that can handle different types of data management requests. some examples include: honoring a user's "right to be forgotten," or moving our customers' data to a different geographical region to reduce latency. these operations require the participation of many teams and services. effective technical communication—via documentation or pairing or meetings—is crucial to our success.
+
+      we are a small team trying to answer big questions: what is the right distributed transaction pattern for our use cases? how do we safely move terabytes of data across the world, without downtime and without putting too much load on the entire system? if you're intrigued and motivated by this problem space, we encourage you to apply.
+      our responsibility to you
+      we will welcome and consider your recommendations for how to improve our code, architecture, documentation, and team processes
+      we make decisions openly
+      we foster a culture of belonging and inclusion
+      we will ensure there is a meaningful link to your contributions and the objectives of the company
+      we will help build your people-network internally
+      your responsibilities at zendesk
+      build an orchestration framework used to coordinate long-lived operations across a collection of services
+      ship reliable code and document it well
+      contribute to our product and technical roadmaps
+      communicate effectively and with empathy
+      own the team’s services - you believe in taking ownership of infrastructure, design, development, testing, deployment, and are capable of debugging operational issues
+      you should have some of these skills:
+      proficiency with at least one of the following languages: ruby, scala, go, java.
+      ability to work through unfamiliar code and technologies.
+      a deep understanding of relational and non-relational storages and their trade-offs.
+      experience with some of the more relevant technologies at zendesk: mysql, aurora and dynamodb.
+      experience with event-driven, distributed architecture using kafka, sns/sqs.
+      familiarity with at least one modern web frameworks (e.g. rails, finatra, akka-http).
+      familiarity with aws cli and sdks
+      familiarity with or interest in “infrastructure as code” toolings such as chef, terraform, or cloudformation
+
+      zendesk builds software for better customer relationships. it empowers organizations to improve customer engagement and better understand their customers. zendesk products are easy to use and implement. they give organizations the flexibility to move quickly, focus on innovation, and scale with their growth.
+
+      more than 100,000 paid customer accounts in over 150 countries and territories use zendesk products. based in san francisco, zendesk has operations in the united states, europe, asia, australia, and south america.
+
+      interested in knowing what we do in the community? check out the zendesk neighbor foundation to learn more about how we engage with, and provide support to, our local communities.
+
+      zendesk is an equal opportunity employer, and we’re proud of our ongoing efforts to foster diversity & inclusion in the workplace. individuals seeking employment at zendesk are considered without regard to race, color, religion, national origin, age, sex, gender, gender identity, gender expression, sexual orientation, marital status, medical condition, ancestry, physical or mental disability, military or veteran status, or any other characteristic protected by applicable law.
+
+      by submitting your application, you agree that zendesk may collect your personal data for recruiting, global organization planning, and related purposes. zendesk's candidate privacy notice explains what personal information zendesk may process, where zendesk may process your personal information, its purposes for processing your personal information, and the rights you can exercise over zendesk’s use of your personal information.
+      industry
+      computer software information technology & services
+      employment type
+      full-time
+      job functions
+      engineering information technology
+    bad_matches: []
+    good_matches:
+    - ruby
+    - rails
+    - learn
+    - culture
+  review_status: :bad_match
+- !ruby/object:JobPosting
+  company: LinkedIn
+  description: |-
+    Posted by
+    Michelle Zhang
+    [in] It to Help Others Discover Their Full Potential
+    Send InMail
+    LinkedIn was built to help professionals achieve more in their careers, and every day millions of people use our products to make connections, discover opportunities and gain insights. Our global reach means we get to make a direct impact on the world's workforce in ways no other company can. We're much more than a digital resume – we transform lives through innovative products and technology.
+
+    Searching for your dream job? At LinkedIn, we strive to help our employees find passion and purpose. Join us in changing the way the world works.
+
+    This role will be responsible for designing, building, and maintaining a dynamic and scalable web development projects. You will join LinkedIn’s Enterprise Software Solutions Engineering that empowers the business by building tools that enhance the productivity of users at LinkedIn.
+
+    Responsibilities:
+    -Design and implement overall site designs using HTML, CSS, Javascript, React
+    -Evaluate, suggest, and outline improvements to existing interface flows
+    -Build and maintain scalable web applications using custom, reusable, and responsive UI components
+    -Work closely with design teams and business owners to define, design, and implement features
+    -Participate in the design and architecture of the front-end stack for future UI development on the team
+
+    Basic Qualifications:
+    -BA/BS Degree in Computer Science or related technical discipline
+    -3+ years of related practical experience with application development and deployment
+    -Experience working with Single Page Application frameworks like Angular, React, Ember or Vue
+    -3+ years of JavaScript experience, including concepts like asynchronous programming, closures, types, and ES6
+    -3+ years of HTML/CSS experience, including concepts like layout, specificity, cross browser compatibility, and accessibility
+    -3+ years experience with RESTful APIs and optimizing front end performance
+    -Experience building reusable component-based UI frameworks
+
+    Preferred Qualifications:
+    -5+ years of software development experience, preferably in client services
+    -Experience with JavaScript unit testing
+    -Experience with aspects of mobile device design and UI
+    -Strong user experience mindset
+    -Experience in analyzing and estimating business requirements
+    -Experience working with microservices powered by Jetty, NGINX or Flask
+    -Experience working with source control systems such as Git and issue tracking system such as JIRA
+
+    Equal Opportunity Statement
+    LinkedIn is committed to diversity in its workforce and is proud to be an equal opportunity employer. LinkedIn considers qualified applicants without regard to race, color, religion, creed, gender, national origin, age, disability, veteran status, marital status, pregnancy, sex, gender expression or identity, sexual orientation, citizenship, or any other legally protected class. LinkedIn is an Affirmative Action and Equal Opportunity Employer as described in our equal opportunity statement here: https://lnkd.in/equalemploymentopportunity2017. Please reference http://www1.eeoc.gov/employers/upload/eeoc_self_print_poster.pdf and https://www.dol.gov/ofccp/regs/compliance/posters/pdf/OFCCP_EEO_Supplement_Final_JRF_QA_508c.pdf for more information.
+
+    LinkedIn is an equal employment opportunity employer offering opportunities to all job seekers, including individuals with disabilities. If you believe you need a reasonable accommodation in order to search for a job opening or to apply for a position, please contact us by sending an email to accommodations@linkedin.com. This email box is designed to assist disabled job seekers who seek a reasonable accommodation to the application process. Emails sent for non-disability related issues, such as following up on an application, will not receive a response.
+
+    In your email, please include the following: (1) confirm you have a disability; (2) identify the disability-related limitation that needs to be accommodated, and (3) if known, describe the specific accommodation requested for the disability-related limitation. A response to your request may take up to three business days.
+
+    LinkedIn will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. However, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by LinkedIn, or (c) consistent with LinkedIn's legal duty to furnish information.
+
+    Pay Transparency Policy Statement
+    As a federal contractor, LinkedIn follows the Pay Transparency and non-discrimination provisions described at this link: https://lnkd.in/paytransparency.
+
+    Global Data Privacy Notice for Job Candidates
+    This document provides transparency around the way in which LinkedIn handles personal data of employees and job applicants: https://lnkd.in/GlobalDataPrivacyNotice
+    Industry
+    Internet Information Technology & Services
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering
+  id: urn:li:fs_normalized_jobPosting:1466671579
+  location: Sunnyvale, CA, US
+  position: 'Senior Software Engineer: Frontend + UI, Enterprise Productivity'
+  url: https://www.linkedin.com/jobs/view/1466671579/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=SALARY&refId=ce223b8a-44f3-4647-a03b-42a16d715458&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 35
+    bad_matches: []
+    good_matches:
+    - react
+    - javascript
+    - html
+    - css
+    - jr
+  review_status: :bad_match
+- !ruby/object:JobPosting
+  company: Wish
+  description: |-
+    We are looking for a passionate engineer to make an impact at Wish by engineering next generation customer support tools. This role is ideal for someone who enjoys engineering complex systems, taking ownership over projects and building features at all levels of the stack. This role demands high level of cross functional team communications. The person should be a good full stack engineer with handson experience on both frontend and backend technologies. As an Engineer on Web team, you will be making a huge impact on user retention by improving the customer experience through various web based client applications.
+
+    What You'll Do
+    Have a critical role in building and maintaining different internal tools systems like Customer support ticketing systems, Wish Assistant Chatbot, Fraud Tools, Customer support Quality tools etc. to name a few
+    Manage all technical aspects of relationships with different stakeholders and take ownership of the implementations
+    Work with Product Manager, Data Analyst, Designers, QA etc. teams to take any project from inception to completion.
+    Own tracking and reporting data pipelines for internal tools related projects.
+
+    Who You Are
+    Degree in Computer Science or related field or equivalent work experience
+    Experience with Python, Mongo DB and JavaScript/React/Redux
+    Self motivated, relentlessly focused on impact and able to operate under great deal of independence
+    Deep passion towards quality of our deliverable and help the internal team build next generation tools for customer support experience
+
+    Company Description
+
+    Wish , is transforming the way the world shops by offering a convenient and personalized mobile shopping experience. Our mission is to offer an unlimited selection of affordable quality goods to be accessible for everyone on a global scale. We selectively bring together world-class technical talent that are passionate about connecting relevant products to value conscious consumers all over the world!
+
+    Learn More About Us
+
+    Wish + LA Lakers
+
+    Wish Blog
+
+    Our CEO discusses Wish
+
+    Recruiting Video
+
+    Wish Careers Instagram
+
+    Wish is an equal opportunity employer that values diversity. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital, veteran, or disability status.
+
+    Wish values diversity and is committed to creating an inclusive work environment. We provide equal employment opportunity for all applicants and employees. We do not discriminate based on any legally-protected class or characteristic. Employment decisions are made based on qualifications, merit, and business needs. If you need assistance or accommodation due to a disability, please let your recruiter know. For job positions in San Francisco, CA, and other locations where required, we will consider for employment qualified applicants with arrest and conviction records.
+    Industry
+    Marketing & Advertising Internet Financial Services
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering Information Technology
+  id: urn:li:fs_normalized_jobPosting:1445137264
+  location: San Francisco, CA, US
+  position: 'Full Stack Software Engineer: Internal Tools, Product Web'
+  url: https://www.linkedin.com/jobs/view/1445137264/?eBP=NotAvailableFromVoyagerAPI&refId=1d21a02d-6131-45db-b53d-e7e588009cbb&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 35
+    bad_matches: []
+    good_matches:
+    - react
+    - javascript
+    - redux
+    - learn
+  review_status: :dont_want
+- !ruby/object:JobPosting
+  company: Wish
+  description: |-
+    We are looking for a passionate engineer to make an impact at Wish by engineering next generation tools for Relevance Engineering. This role is ideal for someone who enjoys engineering complex systems, taking ownership over projects and building features at all levels of the stack. The person should be a good full stack engineer with hands on experience in both frontend and backend technologies. As an Engineer on the Relevance team, you will be impacting Wish’s personalization technologies and our ability to engage the users.
+
+    What You'll Do
+    Have a critical role in building and maintaining a set of tools to support personalization and machine learning algorithm development
+    Manage all technical aspects of relationships with different stakeholders and take ownership of the implementations
+    Work with ML Engineers, Data Scientists, QA etc. teams to take any project from inception to completion
+    Own data pipeline and reporting for tracking performance of the tools
+
+    Who You Are
+    Degree in Computer Science or related field or equivalent work experience
+    Experience with Python, Mongo DB and RDBMS / SQL
+    Web development experience with JavaScript/React/Redux
+    Self motivated, relentlessly focused on impact and able to operate under a great deal of independence
+    Passionate about e-commerce and improving personalizations
+
+    Wish , is transforming the way the world shops by offering a convenient and personalized mobile shopping experience. Our mission is to offer an unlimited selection of affordable quality goods to be accessible for everyone on a global scale. We selectively bring together world-class technical talent that are passionate about connecting relevant products to value conscious consumers all over the world!
+
+    Wish values diversity and is committed to creating an inclusive work environment. We provide equal employment opportunity for all applicants and employees. We do not discriminate based on any legally-protected class or characteristic. Employment decisions are made based on qualifications, merit, and business needs. If you need assistance or accommodation due to a disability, please let your recruiter know. For job positions in San Francisco, CA, and other locations where required, we will consider for employment qualified applicants with arrest and conviction records.
+    Industry
+    Marketing & Advertising Internet Financial Services
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering Information Technology
+  id: urn:li:fs_normalized_jobPosting:1445137263
+  location: San Francisco, CA, US
+  position: Full Stack Software Engineer, Relevance Tools
+  url: https://www.linkedin.com/jobs/view/1445137263/?eBP=NotAvailableFromVoyagerAPI&refId=1d21a02d-6131-45db-b53d-e7e588009cbb&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 40
+    bad_matches: []
+    good_matches:
+    - react
+    - javascript
+    - redux
+    - learn
+    - learning
+  review_status: :dont_want
+- !ruby/object:JobPosting
+  company: CyberForza
+  description: |-
+    Posted by
+    Arun Voleti
+    Director at CyberForza
+    Send InMail
+    Software Engineer (0-2yrs)
+    Responsibilities:
+    •   Experience in Core Java, J2EE technologies, Python, Cloud Tools & Technologies, Strong Front-End development ,Angular 4.0, jquery, bootstrap
+    •   Self-starter who is a quick learner of new tools and technologies.
+    •   Ability to work both independently, with other team members, and across teams
+    •   Able to work in a fast-paced environment where priority changes occur often
+    •   Experience with all aspects of the SDLC.
+    Required Skills:
+    •   Substantial experience in Core Java, Front-End development (HTML, JavaScript Frameworks(NodeJS, Ember, AngularJS, React), PHP and CSS)
+    •   Experience in working on multiple technologies and medium to complex systems, well versed with design standards & framework
+    •   Quick learner of new tools and technologies.
+    •   Able to work with distributed teams across multiple time zones.
+    •   Database experience required.
+    Technologies required –
+    •   Core Java, , Web Services, RESTful Development , JSP, Servlets, JSON, XML, JavaScript, CSS, jquery , bootstrap
+    •   Experience in Spring Framework, Spring Integration and ELK Stack.
+    •   Shell Scripting, Python
+    •   OS: Windows, Linux (Ubuntu, CentOS)
+    •   Tools – Well versed with Eclipse; Test Driven development and automated testing tools like JUnit, Cucumber/Gherkin; JIRA, Maven, Sonar
+    •   Experience with Gitlab repo
+    Additional Qualifications:
+    •   Data Analytics experience is a plus
+    •   Full understanding of cloud architecture and services
+    •   Experience with common cloud platforms. AWS, Azure, GCP
+    •   Experience with containers (Kubernetes, Docker)
+    •   Strong problem solving, troubleshooting, & analysis skills
+    •   Experience managing and analyzing metrics
+    •   Ability to work independently and multi-task effectively
+    •   Flexible and willing to accept a change in priorities as necessary
+    Industry
+    Computer & Network Security
+    Employment Type
+    Full-time
+    Job Functions
+    Engineering Information Technology
+    How you match
+    Criteria provided by job poster
+    Skills
+    Match
+    Node.js
+    Match
+    Full-Stack Development
+    Match
+    Front-end Development
+    Match
+    Amazon Web Services (AWS)
+    No match
+    AngularJS
+    No match
+    Elastic Stack (ELK)
+    No match
+    Spring Framework
+    No match
+    Scripting
+  id: urn:li:fs_normalized_jobPosting:1423142536
+  location: Santa Clara, CA, US
+  position: Software Engineer
+  url: https://www.linkedin.com/jobs/view/1423142536/?eBP=NotAvailableFromVoyagerAPI&refId=aeaa84ae-ed50-4eb5-9173-87e42fa25a11&trk=d_flagship3_search_srp_jobs
+  point_allocation: !ruby/object:PointAllocation
+    points: 45
+    bad_matches: []
+    good_matches:
+    - react
+    - javascript
+    - html
+    - css
+    - learn
+    - jquery
+  review_status: :dont_want

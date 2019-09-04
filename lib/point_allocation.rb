@@ -7,20 +7,23 @@ class PointAllocation
 
   # setup good and bad keywords to be used in all objects
   def self.options(options = {})
-    const_set('GOOD_KEY_WORDS', options[:good_key_words])
-    const_set('BAD_KEY_WORDS', options[:bad_key_words])
-    const_set('PASSING_POINTS', options[:passing_points])
+    const_set('GOOD_KEY_WORDS', options["good_key_words"])
+    const_set('BAD_KEY_WORDS', options["bad_key_words"])
+    const_set('PASSING_POINTS', options["passing_points"])
   end
 
   def initialize(text)
-    GOOD_KEY_WORDS && BAD_KEY_WORDS && PASSING_POINTS
+    begin
+      GOOD_KEY_WORDS && BAD_KEY_WORDS && PASSING_POINTS
+    rescue NameError
+      raise 'Good & bad key words must be set.'
+    end
+
     @points = 0
     @bad_matches = []
     @good_matches = []
     text = text.downcase
     allocate(text)
-  rescue NameError
-    raise 'Good & bad key words must be set.'
   end
 
   def passing_score?

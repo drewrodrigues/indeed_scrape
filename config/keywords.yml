@@ -1,0 +1,36 @@
+good_key_words:
+  'ruby': 10,
+  'rails': 10,
+  'react': 10,
+  'javascript': 10,
+  'redux': 10,
+  'html': 5,
+  'css': 5,
+  'bootcamp': 10,
+  'boot camp': 10,
+  'new graduates': 10,
+  'new grad': 10,
+  'unlimited pto': 10,
+  'jest': 5,
+  'enzyme': 5,
+  'cypress': 5,
+  'learn': 5,
+  'learning': 5,
+  'mentor': 5,
+  'mentorship': 5,
+  'culture': 5,
+  'equity': 5,
+  'stock': 5,
+  'jquery': 10,
+  'apprentice': 5,
+  'junior': 5,
+  'jr': 5
+
+bad_key_words:
+  'lead': -100,
+  'senior': -100,
+  'vitalsource': -100,
+  'verba': -100,
+  'phd': -100
+
+passing_points: 30

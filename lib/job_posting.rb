@@ -34,17 +34,21 @@ class JobPosting
   def review_status_pretty
     return '' if @review_status.nil?
 
-    @review_status.to_s.send(if bad_match?
-      :red
-    elsif applied?
-      :blue
-    elsif needs_review?
-      :yellow
-    elsif interested?
-      :light_blue
-    elsif dont_want?
-      :red
-    end)
+    color = if bad_match?
+              :red
+            elsif applied?
+              :blue
+            elsif needs_review?
+              :yellow
+            elsif interested?
+              :light_blue
+            elsif dont_want?
+              :red
+            else
+              ''
+            end
+
+    review_status.to_s.send(color)
   end
 
   def to_s

@@ -1,34 +1,36 @@
 require_relative 'storage'
+require_relative 'browser'
 require 'tty-table'
 
 class Review
-  attr_reader :storage
+  attr_reader :browser, :storage
 
   def initialize
     self.storage = Storage.new
+
     loop do
       system('clear')
       display
       id = select_id
       do_review_on(id)
-      save
     end
   end
 
   def display
     header = ['id', 'Position', 'Company', 'Review Status', 'Points', 'Good Matches'].map { |h| h.green }
     rows = []
-    storage.matches.each_with_index do |match, index|
-      rows << [index, match.position, match.company, match.review_status_pretty, match.points, match.good_matches]
+
+    sorted_by_points.each do |id, match|
+      rows << [id, match.position, match.company, match.review_status_pretty, match.points, match.good_matches]
     end
 
     table = TTY::Table.new header, rows
-    puts table.render(:unicode)
+    puts table.render(:unicode, width: 1000, multiline: true)
   end
 
   def select_id
     print 'Select id: '.green
-    gets.chomp.to_i
+    gets.chomp
   end
 
   def do_review_on(id)
@@ -39,21 +41,21 @@ class Review
     case action
     when 'a'
       posting.applied!
-    when 'c'
-      # TODO: clear_dont_want_and_bad_match
     when 'o'
-      # TODO: open in browser with url
+      Browser.open_url(posting.url)
     when 'b'
       posting.bad_match!
+      storage.move_from_matches_to_misses(posting)
     when 'd'
       posting.dont_want!
+      storage.move_from_matches_to_misses(posting)
     when 'n'
       posting.needs_review!
     when 'i'
       posting.interested!
     when 'v'
       system('clear')
-      puts storage.matches[id]
+      puts posting
       puts '[Press enter once done]'.red
       gets
     else
@@ -62,11 +64,11 @@ class Review
     end
   end
 
-  def save
-    storage.save
-  end
-
   private
+
+  def sorted_by_points
+    storage.matches.sort_by { |_, match| -match.points }
+  end
 
   attr_writer :storage
 end

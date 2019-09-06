@@ -37,7 +37,7 @@ class JobPosting
     color = if bad_match?
               :red
             elsif applied?
-              :blue
+              :green
             elsif needs_review?
               :yellow
             elsif interested?

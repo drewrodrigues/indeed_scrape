@@ -14,7 +14,7 @@ PointAllocation.options(YAML.load(File.read('./config/keywords.yml')))
 class Scraper
   attr_reader :storage, :driver, :wait, :browser, :parser
 
-  def self.run
+  def self.start
     new.run
   end
 

@@ -5,6 +5,10 @@ require 'tty-table'
 class Review
   attr_reader :browser, :storage
 
+  def self.start
+    new
+  end
+
   def initialize
     self.storage = Storage.new
 

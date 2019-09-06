@@ -44,6 +44,8 @@ class JobPosting
               :light_blue
             elsif dont_want?
               :red
+            elsif response?
+              :green
             else
               ''
             end
@@ -98,6 +100,14 @@ class JobPosting
 
   def interested?
     review_status == :interested
+  end
+
+  def response?
+    review_status == :response
+  end
+
+  def response!
+    self.review_status = :response
   end
 
   def good_matches

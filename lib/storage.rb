@@ -62,6 +62,14 @@ class Storage
     misses[id] || matches[id]
   end
 
+  def save_matches
+    File.open('./storage/matches.yml', 'w') { |f| f.write(matches.to_yaml) }
+  end
+
+  def save_misses
+    File.open('./storage/misses.yml', 'w') { |f| f.write(misses.to_yaml) }
+  end
+
   def move_from_matches_to_misses(job_posting)
     deleted = matches.reject! { |_, posting| posting == job_posting }
     raise 'Failed to delete match' unless deleted
@@ -70,10 +78,8 @@ class Storage
     save_all
   end
 
-  private
-
   def save_all
-    File.open('./storage/matches.yml', 'w') { |f| f.write(matches.to_yaml) }
-    File.open('./storage/misses.yml', 'w') { |f| f.write(misses.to_yaml) }
+    save_matches
+    save_misses
   end
 end

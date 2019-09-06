@@ -23,7 +23,7 @@ class Browser
     driver.execute_script "window.scrollTo(0, #{number * 200})"
   end
 
-  def up_to_page(number)
+  def up_to_page(number = 100)
     number.times do
       yield
       Alert.next_page

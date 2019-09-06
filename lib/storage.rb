@@ -29,12 +29,18 @@ class Storage
   def save_miss(job)
     return if already_saved?(job)
 
-    misses[job.id] = job
+    misses[job.id] = true
     File.open('./storage/misses.yml', 'w') { |f| f.write(misses.to_yaml) }
   end
 
   def already_saved?(job)
-    misses[job.id] || matches[job.id]
+    id = if job.is_a?(JobPosting)
+           job.id
+         else
+           job.attribute('id')
+         end
+
+    misses[id] || matches[id]
   end
 
   def save

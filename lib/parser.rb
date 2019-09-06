@@ -40,12 +40,16 @@ class Parser
   end
 
   def parse_job_posting(job_card)
-    position = driver.find_element(id: 'vjs-jobtitle').text
-    company = driver.find_element(id: 'vjs-cn').text
-    location = driver.find_element(id: 'vjs-loc').text
-    description = driver.find_element(id: 'vjs-content').text
-    id = job_card.attribute('id')
-    JobPosting.new(position: position, company: company, location: location,
-                   description: description, id: id)
+    JobPosting.new(pull_data_from_page(job_card))
+  end
+
+  def pull_data_from_page(job_card)
+    {
+      position: driver.find_element(id: 'vjs-jobtitle').text,
+      company: driver.find_element(id: 'vjs-cn').text,
+      location: driver.find_element(id: 'vjs-loc').text,
+      description: driver.find_element(id: 'vjs-content').text,
+      id: job_card.attribute('id')
+    }
   end
 end

@@ -9,4 +9,12 @@ class Alert
       puts "Failed, with points: #{job.points}.".red
     end
   end
+
+  def self.already_saved
+    puts 'Already saved!'.light_blue
+  end
+
+  def self.prime
+    puts 'Is prime, skipping.'.yellow
+  end
 end

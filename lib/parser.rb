@@ -3,12 +3,13 @@ require_relative 'alert'
 
 # responsible for pulling data from page to return job postings
 class Parser
-  attr_reader :browser, :driver, :storage
+  attr_reader :browser, :driver, :storage, :wait
 
-  def initialize(driver, browser, storage)
+  def initialize(driver, browser, storage, wait)
     @driver = driver
     @browser = browser
     @storage = storage
+    @wait = wait
   end
 
   def parse_jobs
@@ -38,7 +39,7 @@ class Parser
   def go_to_card(job_card, i)
     browser.scroll_to_card(i)
     job_card.click
-    sleep(1)
+    wait.until { driver.find_element(id: 'vjs-jobtitle') }
   end
 
   def job_from_card(job_card)

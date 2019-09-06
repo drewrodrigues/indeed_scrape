@@ -23,13 +23,15 @@ class Scraper
     @driver = Selenium::WebDriver.for :chrome
     @wait = Selenium::WebDriver::Wait.new(timeout: 10)
     @browser = Browser.new(driver, wait)
-    @parser = Parser.new(driver, browser, storage)
+    @parser = Parser.new(driver, browser, storage, wait)
   end
 
   def run
     browser.search('Software Engineer', 'San Francisco, California')
-    jobs = parser.parse_jobs
-    storage.add(jobs)
+    browser.up_to_page(3) do
+      jobs = parser.parse_jobs
+      storage.add(jobs)
+    end
   end
 end
 

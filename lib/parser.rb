@@ -15,20 +15,11 @@ class Parser
     jobs = []
 
     job_cards.each_with_index do |job_card, i|
-      if storage.already_saved?(job_card)
-        Alert.already_saved
-        next
-      end
+      next if already_saved?(job_card)
 
       go_to_card(job_card, i)
-      begin
-        job = parse_job_posting(job_card)
-        Alert.of_pass_of_fail_for(job)
-        jobs << job
-      rescue Selenium::WebDriver::Error::NoSuchElementError
-        Alert.prime
-        next # prime, skip
-      end
+      job = job_from_card(job_card)
+      jobs << job if job
     end
 
     jobs
@@ -36,10 +27,26 @@ class Parser
 
   private
 
+  def already_saved?(job_card)
+    return nil unless storage.already_saved?(job_card)
+
+    Alert.already_saved
+    true
+  end
+
   def go_to_card(job_card, i)
     browser.scroll_to_card(i)
     job_card.click
     sleep(1)
+  end
+
+  def job_from_card(job_card)
+    job = parse_job_posting(job_card)
+    Alert.of_pass_of_fail_for(job)
+    job
+  rescue Selenium::WebDriver::Error::NoSuchElementError
+    Alert.prime
+    nil
   end
 
   def job_cards

@@ -89,7 +89,7 @@ class JobPosting
   end
 
   def dont_want?
-    self.review_status == :dont_want
+    review_status == :dont_want
   end
 
   def interested!
@@ -97,7 +97,7 @@ class JobPosting
   end
 
   def interested?
-    self.review_status == :interested
+    review_status == :interested
   end
 
   def good_matches

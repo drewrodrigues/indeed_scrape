@@ -6,8 +6,8 @@ good_key_words:
   'redux': 10,
   'html': 5,
   'css': 5,
-  'bootcamp': 10,
-  'boot camp': 10,
+  'bootcamp': 50,
+  'boot camp': 50,
   'new graduates': 10,
   'new grad': 10,
   'unlimited pto': 10,
@@ -24,13 +24,18 @@ good_key_words:
   'jquery': 10,
   'apprentice': 5,
   'junior': 5,
-  'jr': 5
+  'jr': 5,
+  'app academy': 100,
+  'appacademy': 100
 
 bad_key_words:
   'lead': -100,
   'senior': -100,
   'vitalsource': -100,
   'verba': -100,
-  'phd': -100
+  'phd': -100,
+  'blockchain': -100,
+  'block chain': -100,
+  'crypto': -100
 
-passing_points: 30
+passing_points: 50

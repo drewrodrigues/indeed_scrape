@@ -16,6 +16,7 @@ class Parser
 
     job_cards.each_with_index do |job_card, i|
       next if already_saved?(job_card)
+      next if prime?(job_card)
 
       go_to_card(job_card, i)
       job = job_from_card(job_card)
@@ -44,9 +45,13 @@ class Parser
     job = parse_job_posting(job_card)
     Alert.of_pass_of_fail_for(job)
     job
-  rescue Selenium::WebDriver::Error::NoSuchElementError
+  end
+
+  def prime?(job_card)
+    return false unless job_card.text.downcase =~ /indeed prime/
+
     Alert.prime
-    nil
+    true
   end
 
   def job_cards

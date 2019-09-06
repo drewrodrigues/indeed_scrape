@@ -9,6 +9,8 @@ require_relative 'storage'
 # TODO: make into a config.keyswords ?
 PointAllocation.options(YAML.load(File.read('./config/keywords.yml')))
 
+# pull together objects to perform their individual jobs
+# in order to scrape jobs
 class Scraper
   attr_reader :storage, :driver, :wait, :browser, :parser
 

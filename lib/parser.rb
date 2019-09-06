@@ -68,7 +68,8 @@ class Parser
       company: driver.find_element(id: 'vjs-cn').text,
       location: driver.find_element(id: 'vjs-loc').text,
       description: driver.find_element(id: 'vjs-content').text,
-      id: job_card.attribute('id')
+      id: job_card.attribute('id'),
+      url: job_card.find_element(tag_name: 'a').attribute('href')
     }
   end
 end

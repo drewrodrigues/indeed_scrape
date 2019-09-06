@@ -6,9 +6,14 @@ require_relative 'alert'
 class Browser
   attr_reader :driver, :wait
 
-  def initialize(driver, wait)
-    @driver = driver
-    @wait = wait
+  def self.open_url(url)
+    browser = new
+    browser.driver.navigate.to(url)
+  end
+
+  def initialize(driver = nil, wait = nil)
+    @driver = driver || Selenium::WebDriver.for(:chrome)
+    @wait = wait || Selenium::WebDriver::Wait.new(timeout: 10)
   end
 
   def search(position, location)
@@ -23,8 +28,8 @@ class Browser
     driver.execute_script "window.scrollTo(0, #{number * 200})"
   end
 
-  def up_to_page(number = 100)
-    number.times do
+  def each_page
+    loop do
       yield
       Alert.next_page
       scroll_to_bottom

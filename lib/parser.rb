@@ -3,23 +3,30 @@ require_relative 'alert'
 
 # responsible for pulling data from page to return job postings
 class Parser
-  attr_reader :browser, :driver
+  attr_reader :browser, :driver, :storage
 
-  def initialize(driver, browser)
+  def initialize(driver, browser, storage)
     @driver = driver
     @browser = browser
+    @storage = storage
   end
 
   def parse_jobs
     jobs = []
 
     job_cards.each_with_index do |job_card, i|
+      if storage.already_saved?(job_card)
+        Alert.already_saved
+        next
+      end
+
       go_to_card(job_card, i)
       begin
         job = parse_job_posting(job_card)
         Alert.of_pass_of_fail_for(job)
         jobs << job
       rescue Selenium::WebDriver::Error::NoSuchElementError
+        Alert.prime
         next # prime, skip
       end
     end

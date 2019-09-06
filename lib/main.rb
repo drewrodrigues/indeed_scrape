@@ -12,17 +12,22 @@ PointAllocation.options(YAML.load(File.read('./config/keywords.yml')))
 class Main
   attr_reader :storage, :driver, :wait, :browser, :parser
 
+  def self.run
+    new.run
+  end
+
   def initialize
     @storage = Storage.new
     @driver = Selenium::WebDriver.for :chrome
     @wait = Selenium::WebDriver::Wait.new(timeout: 10)
     @browser = Browser.new(driver, wait)
-    @parser = Parser.new(driver, browser)
+    @parser = Parser.new(driver, browser, storage)
   end
 
   def run
     browser.search('Software Engineer', 'San Francisco, California')
-    parser.parse_jobs
+    jobs = parser.parse_jobs
+    storage.add(jobs)
   end
 end
 

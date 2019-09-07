@@ -37,8 +37,13 @@ class Parser
   end
 
   def go_to_card(job_card, i)
-    browser.scroll_to_card(i)
-    job_card.click
+    begin
+      browser.scroll_to_card(i)
+      job_card.click
+    rescue Selenium::WebDriver::Error::ElementClickInterceptedError
+      retry
+    end
+
     wait.until { driver.find_element(id: 'vjs-jobtitle') }
   end
 

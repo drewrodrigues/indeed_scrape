@@ -61,7 +61,7 @@ class Browser
   end
 
   def close_popover_if_shown
-    sleep(1)
+    sleep(2)
     driver.find_element(id: 'popover-close-link').click
   rescue Selenium::WebDriver::Error::NoSuchElementError
     puts "Popup wasn't found, great!"

@@ -21,11 +21,11 @@ class Review
   end
 
   def display
-    header = ['id', 'Position', 'Company', 'Review Status', 'Points', 'Good Matches'].map { |h| h.green }
+    header = ['id', 'Position', 'Company', 'Review Status', 'Points'].map { |h| h.green }
     rows = []
 
     sorted_by_points.each do |id, match|
-      rows << [id, match.position, match.company, match.review_status_pretty, match.points, match.good_matches]
+      rows << [id, match.position, match.company, match.review_status_pretty, match.points]
     end
 
     table = TTY::Table.new header, rows

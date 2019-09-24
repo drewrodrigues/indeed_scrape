@@ -45,6 +45,8 @@ class Review
     when 'a'
       posting.applied!
       storage.save_matches
+    when 'c'
+      system "echo '#{posting.url}' | pbcopy"
     when 'o'
       Browser.open_url(posting.url)
     when 'b'
@@ -80,14 +82,16 @@ class Review
   end
 
   def review_prompt
-    print '(a: applied |
-            b: bad match |
-            d: dont want |
-            i: interested |
-            n: needs review |
-            v: view |
-            r: response |
-            o: open): '.red
+    print 'a: applied
+    b: bad match
+    c: copy url
+    d: dont want
+    i: interested
+    n: needs review
+    v: view
+    r: response
+    o: open
+    > '.red
     gets.chomp
   end
 

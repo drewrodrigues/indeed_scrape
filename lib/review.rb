@@ -25,7 +25,7 @@ class Review
     rows = []
 
     sorted_by_points.each do |id, match|
-      rows << [id, match.position, match.company, match.review_status_pretty, match.points]
+      rows << [id, match.position[0..50], match.company[0..20], match.review_status_pretty, match.points]
     end
 
     table = TTY::Table.new header, rows

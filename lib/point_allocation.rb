@@ -15,7 +15,7 @@ class PointAllocation
   end
 
   def passing_score?
-    points >= PASSING_POINTS
+    points >= SETTINGS[:passing_points]
   end
 
   private

@@ -1,24 +1,12 @@
 require 'colorize'
+require_relative '../config/settings'
 
 class PointAllocation
   attr_reader :points,        # Integer: point allocation
               :good_matches,  # [<String>]: good key words that were matched
               :bad_matches    # [<String>]: bad key words that were matched
 
-  # setup good and bad keywords to be used in all objects
-  def self.options(options = {})
-    const_set('GOOD_KEY_WORDS', options["good_key_words"])
-    const_set('BAD_KEY_WORDS', options["bad_key_words"])
-    const_set('PASSING_POINTS', options["passing_points"])
-  end
-
   def initialize(text)
-    begin
-      GOOD_KEY_WORDS && BAD_KEY_WORDS && PASSING_POINTS
-    rescue NameError
-      raise 'Good & bad key words must be set.'
-    end
-
     @points = 0
     @bad_matches = []
     @good_matches = []
@@ -40,7 +28,7 @@ class PointAllocation
   end
 
   def allocate_good_matches(text)
-    GOOD_KEY_WORDS.each do |word, value|
+    SETTINGS[:good_keywords].each do |word, value|
       matches = text.scan(word).uniq
       match_count = matches.count
       unless match_count.zero?
@@ -51,7 +39,7 @@ class PointAllocation
   end
 
   def allocate_bad_matches(text)
-    BAD_KEY_WORDS.each do |word, value|
+    SETTINGS[:bad_keywords].each do |word, value|
       matches = text.scan(word).uniq
       match_count = matches.count
       unless match_count.zero?

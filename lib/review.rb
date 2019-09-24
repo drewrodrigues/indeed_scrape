@@ -71,7 +71,6 @@ class Review
       puts 'Incorrect input, please press <enter> to continue'
       gets
     end
-
   end
 
   private

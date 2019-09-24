@@ -25,13 +25,18 @@ class Browser
   end
 
   def scroll_to_card(number)
-    driver.execute_script "window.scrollTo(0, #{number * 200})"
+    driver.execute_script "
+      let gotoY = document.querySelectorAll('.jobsearch-SerpJobCard')[#{number}].offsetTop;
+      window.scrollTo(0, gotoY);
+    "
   end
 
   def each_page
+    page_number = 1
     loop do
       yield
-      Alert.next_page
+      page_number += 1
+      Alert.next_page(page_number)
       scroll_to_bottom
       driver.find_element(link_text: 'Next »').click
       close_popover_if_shown

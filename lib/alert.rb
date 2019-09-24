@@ -20,7 +20,11 @@ class Alert
     puts 'Is prime, skipping.'.yellow
   end
 
-  def self.next_page
-    puts 'Going to next page!'.white.on_magenta
+  def self.next_page(page_number)
+    puts "Going to page: #{page_number}".white.on_magenta
+  end
+
+  def self.timeout(message)
+    puts message.red.on_white
   end
 end

@@ -28,6 +28,7 @@ GEM
     selenium-webdriver (3.142.3)
       childprocess (>= 0.5, < 2.0)
       rubyzip (~> 1.2, >= 1.2.2)
+    sqlite3 (1.4.1)
     strings (0.1.6)
       strings-ansi (~> 0.1)
       unicode-display_width (~> 1.5)
@@ -51,6 +52,7 @@ DEPENDENCIES
   colorize
   rspec
   selenium-webdriver
+  sqlite3
   tty-table
 
 BUNDLED WITH

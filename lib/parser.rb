@@ -19,9 +19,17 @@ class Parser
       next if already_saved?(job_card)
       next if prime?(job_card)
 
-      go_to_card(job_card, i)
-      job = job_from_card(job_card)
-      jobs << job if job
+      # TODO: fixme, breaking on 'seen with indeed'
+      begin
+        go_to_card(job_card, i)
+        job = job_from_card(job_card)
+        jobs << job if job
+      rescue => e
+        puts "*" * 20
+        puts "rescued"
+        puts e
+        puts "*" * 20
+      end
     end
 
     jobs
@@ -44,7 +52,11 @@ class Parser
       retry
     end
 
-    wait.until { driver.find_element(id: 'vjs-jobtitle') }
+    begin
+      wait.until { driver.find_element(id: 'vjs-jobtitle') }
+    rescue Selenium::WebDriver::Error::TimeoutError
+      Alert.timeout('Timeout occured. Job was most likely opened in a new tab.')
+    end
   end
 
   def job_from_card(job_card)

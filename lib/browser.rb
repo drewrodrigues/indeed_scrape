@@ -13,7 +13,7 @@ class Browser
 
   def initialize(driver = nil, wait = nil)
     @driver = driver || Selenium::WebDriver.for(:chrome)
-    @wait = wait || Selenium::WebDriver::Wait.new(timeout: 10)
+    @wait = wait || Selenium::WebDriver::Wait.new(timeout: 2)
   end
 
   def search(position, location)
@@ -66,7 +66,7 @@ class Browser
   end
 
   def close_popover_if_shown
-    sleep(2)
+    sleep(1)
     driver.find_element(id: 'popover-close-link').click
   rescue Selenium::WebDriver::Error::NoSuchElementError
     puts "Popup wasn't found, great!"

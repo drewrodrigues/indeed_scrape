@@ -25,20 +25,40 @@ SETTINGS = {
     'Software Engineer',
     'Web Developer',
     'Software Developer',
-    'Full Stack',
     'Ruby on Rails'
   ],
 
-  title_exclusions: [
-    'java',
-    'senior',
-    'staff',
-    'principal',
-    'lead',
-    'python',
+  position_exclusions: [
+    ' IT ',
+    '2020',
+    'angular',
+    'c#',
+    'c++',
+    'contract',
+    'contractor',
+    'data scientist',
+    'database',
+    'devops',
+    'dot',
+    'game',
+    'instructor',
     'ios',
+    'java',
+    'lead',
+    'machine learning',
     'mapping',
-    'game'
+    'net',
+    'ops',
+    'php',
+    'principal',
+    'python',
+    'scala',
+    'senior',
+    'sr.',
+    'staff',
+    'teacher',
+    'teaching',
+    'wordpress',
   ],
 
   good_keywords: {
@@ -76,7 +96,7 @@ SETTINGS = {
     'mysql' => 5,
     'web development' => 5,
     'web developer' => 5,
-    'relocation' => 10
+    'relocation' => 10,
   },
 
   bad_keywords: {
@@ -91,5 +111,6 @@ SETTINGS = {
     'android' => -100
   },
 
-  passing_points: 50
+  passing_points: 50,
+  simple_output: true
 }

@@ -34,9 +34,9 @@ class Browser
   def each_page
     page_number = 1
     loop do
+      Alert.on_page(page_number)
       yield
       page_number += 1
-      Alert.next_page(page_number)
       scroll_to_bottom
       driver.find_element(link_text: 'Next »').click
       close_popover_if_shown

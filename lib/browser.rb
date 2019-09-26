@@ -69,6 +69,6 @@ class Browser
     sleep(1)
     driver.find_element(id: 'popover-close-link').click
   rescue Selenium::WebDriver::Error::NoSuchElementError
-    puts "Popup wasn't found, great!"
+    # popup wasn't found
   end
 end

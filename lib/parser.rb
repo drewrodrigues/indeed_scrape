@@ -20,16 +20,16 @@ class Parser
       next if prime?(job_card)
       next if bad_position?(job_card)
 
-      # TODO: fixme, breaking on 'seen with indeed'
       begin
         go_to_card(job_card, i)
         job = job_from_card(job_card)
         jobs << job if job
       rescue => e
-        puts "*" * 20
-        puts "rescued"
-        puts e
-        puts "*" * 20
+        # TODO: fixme, figure out why this is breaking
+        # puts "*" * 20
+        # puts "rescued"
+        # puts e
+        # puts "*" * 20
       end
     end
 

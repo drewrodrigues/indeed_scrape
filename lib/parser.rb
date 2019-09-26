@@ -18,6 +18,7 @@ class Parser
     job_cards.each_with_index do |job_card, i|
       next if already_saved?(job_card)
       next if prime?(job_card)
+      next if bad_position?(job_card)
 
       # TODO: fixme, breaking on 'seen with indeed'
       begin
@@ -91,5 +92,13 @@ class Parser
       id: job_card.attribute('id'),
       url: job_card.find_element(tag_name: 'a').attribute('href')
     }
+  end
+
+  def bad_position?(job_card)
+    bad_position = SETTINGS[:position_exclusions].find { |title| job_card.text.downcase.include?(title) }
+    if bad_position
+      Alert.bad_position(bad_position)
+      true
+    end
   end
 end

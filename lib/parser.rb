@@ -68,8 +68,7 @@ class Parser
 
   def prime?(job_card)
     downcased_text = job_card.text.downcase
-    return false unless downcased_text =~ /indeed prime/
-    return false unless downcased_text =~ /seen by indeed/
+    return false unless downcased_text =~ /indeed prime/ || downcased_text =~ /seen by indeed/
 
     Alert.prime
     true

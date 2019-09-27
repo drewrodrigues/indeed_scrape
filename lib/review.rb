@@ -78,7 +78,7 @@ class Review
   private
 
   def sorted_by_points
-    storage.matches.sort_by { |_, match| -match.points }
+    storage.matches.sort_by { |_, match| match.points }
   end
 
   def review_prompt

@@ -25,12 +25,11 @@ class Scraper
   end
 
   def run
+    system 'clear'
     SETTINGS[:places].shuffle.each do |location|
       SETTINGS[:positions].shuffle.each do |position|
         begin
-          puts '-' * 20
-          puts "Searching: #{position} @ #{location}"
-          puts '-' * 20
+          Alert.start_search(position, location)
           browser.search(position, location)
           browser.each_page do
             jobs = parser.parse_jobs

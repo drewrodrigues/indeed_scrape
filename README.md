@@ -1,16 +1,23 @@
-# # Performance
-## YAML File Storage w/ Hash Data Structure vs. SQLite3 w/ Active Record
-* *Approach*
+* [Setup](#setup)
+* [Performance](#performance)
+
+## Setup
+I will be adding information on how to set this up soon! :D
+
+## Performance
+YAML File Storage w/ Hash Data Structure vs. SQLite3 w/ Active Record
+
+#### Approach
 
 My approach is to use a profiler under different circumstances and see which method performs better. The SQLite3 database has been loaded with records that match all attributes from the objects in the YAML file. In total there are 502 objects in the YAML file and 502 records in the database. I won’t be testing updating records since I test saving them, which I assume will be pretty close in speed. For brevity, I won’t be showing any setup code such as initialization, requiring libraries or classes unless that’s what’s being tested.
 
-* *Predictions*
+#### Predictions
 
 I’m assuming under smaller loads, saving to a file will have better performance, while SQLite3 will perform better under larger loads.
 
-* *Results*
+#### Results
 
-* *Thoughts*
+#### Thoughts
 
 I was actually shocked at how fast accessing a hash was. Overall I think using a database in combination of a hash once the records are in memory would be a great way to utilize the strengths of the database as well as hashes.
 
@@ -18,7 +25,7 @@ I was actually shocked at how fast accessing a hash was. Overall I think using a
 
 ### The Tests
 
-* *Pulling all records into memory*
+#### Pulling all records into memory
 
 File Storage
 ```ruby  
@@ -34,7 +41,7 @@ job = Job.all
 # runtime: 0.084s
 ```
 
-* *Saving a record*
+#### Saving a record
 
 The current method of saving a job to matches overwrites the whole file with the matches. So instead of just saving 1 job at a time, we’re re-saving every single job. This is obviously very inefficient, so I’m assuming there’s going to be a big difference here. In the future, I may test an approach of just appending to the file to see the difference in approach.
 
@@ -55,7 +62,7 @@ Job.create! # same attributes passed as above object
  # runtime: 0.009s
 ```
 
-* *Finding a record by id*
+#### Finding a record by id
 
 This test is for file storage is actually testing how fast you can access a hash since that’s how the YAML file is setup and how my Storage classes stores the jobs as well.
 
@@ -77,7 +84,7 @@ The hash is obviously much faster since we already have all of our data in memor
 
 (I’m considering revising the above test since it’s not representative…)
 
-* *Finding a record after already finding another record*
+#### Finding a record after already finding another record
 
 So when testing finding a record by id, I noticed something with ActiveRecord. When you find a record, the next find call will be much quicker even though you aren’t fetching the same record. 
 SQLite3 + ActiveRecord

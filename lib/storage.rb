@@ -37,7 +37,7 @@ class Storage
   end
 
   def save_match(job)
-    return unless save_match(job)
+    return unless add_match(job)
 
     File.open('./storage/matches.yml', 'w') { |f| f.write(matches.to_yaml) }
   end

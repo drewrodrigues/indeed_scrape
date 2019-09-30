@@ -15,11 +15,7 @@ class Storage
 
   def save_jobs(job_postings)
     job_postings.each do |job|
-      if job.passing_score?
-        add_match(job)
-      else
-        add_miss(job)
-      end
+      job.passing_score? ? add_match(job) : add_miss(job)
     end
     save_all
   end
@@ -53,12 +49,7 @@ class Storage
   end
 
   def already_saved?(job)
-    id = if job.is_a?(JobPosting)
-           job.id
-         else
-           job.attribute('id')
-         end
-
+    id = job.is_a?(JobPosting) ? job.id : job.attribute('id')
     misses[id] || matches[id]
   end
 

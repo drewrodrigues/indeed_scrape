@@ -1,5 +1,6 @@
 require_relative 'point_allocation'
 require 'colorize'
+require 'active_record'
 
 # Keep track of job posting data
 class JobPosting

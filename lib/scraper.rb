@@ -19,7 +19,7 @@ class Scraper
   def initialize
     @storage = Storage.new
     @driver = Selenium::WebDriver.for :chrome
-    @wait = Selenium::WebDriver::Wait.new(timeout: 2)
+    @wait = Selenium::WebDriver::Wait.new(timeout: 1)
     @browser = Browser.new(driver, wait)
     @parser = Parser.new(driver, browser, storage, wait)
   end

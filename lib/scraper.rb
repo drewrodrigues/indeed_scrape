@@ -33,7 +33,7 @@ class Scraper
           browser.search(position, location)
           browser.each_page do
             jobs = parser.parse_jobs
-            storage.save_jobs(jobs)
+            storage.save_jobs(jobs) unless jobs.empty?
           end
         rescue => e
           puts '-' * 20

@@ -25,7 +25,7 @@ class Alert
 
   def self.already_saved
     if SETTINGS[:simple_output]
-      print ' → '
+      print ' ↓ '.light_blue
     else
       puts 'Already saved!'.light_blue
     end
@@ -33,7 +33,7 @@ class Alert
 
   def self.prime
     if SETTINGS[:simple_output]
-      print ' → '
+      print ' → '.yellow
     else
       puts 'Is prime, skipping.'.yellow
     end
@@ -57,7 +57,7 @@ class Alert
 
   def self.bad_position(position)
     if SETTINGS[:simple_output]
-      print ' → '
+      print ' → '.red
     else
       puts "Bad position (#{position}), skipping".light_blue
     end

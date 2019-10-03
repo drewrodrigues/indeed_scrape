@@ -9,7 +9,7 @@ ActiveRecord::Schema.define do
   create_table :jobs, force: true do |t|
     t.string :company,        null: false
     t.string :description,    null: false
-    t.integer :job_id,        null: false
+    t.string :job_id,         null: false
     t.string :location,       null: false
     t.string :position,       null: false
     t.string :review_status,  null: false

@@ -21,8 +21,8 @@ class Review
     header = ['id', 'Position', 'Company', 'Review Status', 'Points'].map { |h| h.green }
     rows = []
 
-    sorted_by_points.each do |id, match|
-      rows << [id, match.position[0..50], match.company[0..20], match.review_status_pretty, match.points]
+    sorted_by_points.each do |job|
+      rows << [job.id, job.position[0..50], job.company[0..20], job.review_status_pretty, job.points]
     end
 
     table = TTY::Table.new header, rows
@@ -36,31 +36,25 @@ class Review
 
   def do_review_on(id)
     action = review_prompt
-    posting = storage.matches[id]
+    posting = sorted_by_points.find {|job| job.id == id.to_i }
 
     case action
     when 'a'
       posting.applied!
-      storage.save_matches
     when 'c'
       system "echo '#{posting.url}' | pbcopy"
     when 'o'
       Browser.open_url(posting.url)
     when 'b'
       posting.bad_match!
-      storage.move_from_matches_to_misses(posting)
     when 'd'
       posting.dont_want!
-      storage.move_from_matches_to_misses(posting)
     when 'n'
       posting.needs_review!
-      storage.save_matches
     when 'i'
       posting.interested!
-      storage.save_matches
     when 'r'
       posting.response!
-      storage.save_matches
     when 'v'
       system('clear')
       puts posting
@@ -75,7 +69,7 @@ class Review
   private
 
   def sorted_by_points
-    storage.matches.sort_by { |_, match| match.points }
+    @sorted_by_points ||= Job.reviewable.matches.sort_by { |job| job.points }.to_a.last(50)
   end
 
   def review_prompt
@@ -91,6 +85,4 @@ class Review
     > '.red
     gets.chomp
   end
-
-  attr_writer :storage
 end

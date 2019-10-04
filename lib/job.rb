@@ -3,17 +3,24 @@ require 'colorize'
 require_relative 'point_allocation'
 
 class Job < ActiveRecord::Base
+  VALID_STATUSES = %w(needs_review applied bad_match dont_want interested response)
+
   after_initialize :set_point_allocation
   attr_reader :point_allocation
 
   delegate :points, :passing_score?, :good_matches, to: :point_allocation
 
-  VALID_STATUSES = %w(needs_review applied bad_match dont_want interested response)
   enum status: VALID_STATUSES
+
+  scope :reviewable, -> { where.not(status: :bad_match).where.not(status: :dont_want) }
 
   validates :company, :description, :job_id, :location, :position, :status,
             :url, presence: true
   validates :status, inclusion: { in: VALID_STATUSES }
+
+  def self.matches
+    all.select(&:passing_score?)
+  end
 
   def review_status_pretty
     color = if bad_match?

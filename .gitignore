@@ -1,3 +1,4 @@
 storage/*
 .idea/
 .byebug_history
+.DS_Store

@@ -49,6 +49,8 @@ class Job < ActiveRecord::Base
     puts description
   end
 
+  private
+
   def set_point_allocation
     @point_allocation = PointAllocation.new(description)
   end

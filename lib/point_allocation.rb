@@ -28,23 +28,18 @@ class PointAllocation
   end
 
   def allocate_good_matches(text)
-    SETTINGS[:good_keywords].each do |word, value|
-      matches = text.scan(word).uniq
-      match_count = matches.count
-      unless match_count.zero?
-        self.points += value
-        good_matches.concat(matches)
-      end
-    end
+    match(SETTINGS[:good_keywords], text, :good_matches)
   end
 
   def allocate_bad_matches(text)
-    SETTINGS[:bad_keywords].each do |word, value|
-      matches = text.scan(word).uniq
-      match_count = matches.count
-      unless match_count.zero?
+    match(SETTINGS[:bad_keywords], text, :bad_matches)
+  end
+
+  def match(keywords, text, attribute)
+    keywords.each do |word, value|
+      if text.scan(word)
         self.points += value
-        bad_matches.concat(matches)
+        send(attribute) << word
       end
     end
   end

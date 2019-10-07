@@ -15,14 +15,14 @@ class Main
       when 'r'
         Review.start
       else
-        puts 'Bad input, please press <enter> to continue'
+        puts('Bad input, please press <enter> to continue')
         gets
       end
     end
   end
 
   def prompt
-    print 's (scrape) | r (review): '
+    print('s (scrape) | r (review): ')
     gets.chomp
   end
 end

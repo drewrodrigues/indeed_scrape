@@ -22,14 +22,14 @@ class Scraper
   end
 
   def initialize
-    @driver = Selenium::WebDriver.for :chrome
+    @driver = Selenium::WebDriver.for(:chrome)
     @wait = Selenium::WebDriver::Wait.new(timeout: 1)
     @browser = Browser.new(driver, wait)
     @parser = Parser.new(driver, browser, wait)
   end
 
   def run
-    system 'clear'
+    system('clear')
     SETTINGS[:places].shuffle.each do |location|
       SETTINGS[:positions].shuffle.each do |position|
         begin

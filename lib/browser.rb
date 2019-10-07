@@ -25,10 +25,10 @@ class Browser
   end
 
   def scroll_to_card(number)
-    driver.execute_script "
+    driver.execute_script("
       let gotoY = document.querySelectorAll('.jobsearch-SerpJobCard')[#{number}].offsetTop;
       window.scrollTo(0, gotoY);
-    "
+    ")
   end
 
   def each_page

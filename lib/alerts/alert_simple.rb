@@ -13,7 +13,7 @@ class AlertSimple
     end
 
     def on_page(number)
-      print "\nPage: #{number} ".magenta
+      print("\nPage: #{number} ".magenta)
     end
 
     def timeout(_)
@@ -25,7 +25,7 @@ class AlertSimple
     end
 
     def start_search(position, location)
-      puts "Searching #{position} @ #{location} ".magenta
+      puts("Searching #{position} @ #{location} ".magenta)
     end
   end
 end

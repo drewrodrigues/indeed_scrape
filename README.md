@@ -1,6 +1,7 @@
 * [About](#about)
 * [Setup](#setup)
 * [Settings](#settings)
+* [Observer Pattern](#observer_pattern)
 * [Performance](#performance) - a small experiment I wanted to do
 
 # About
@@ -73,6 +74,12 @@ simple_ouput: true
 simple_ouput: false
 ```
 ![](https://github.com/thesimpledev/job_search/blob/master/readme/non_simple_output.png?raw=true)
+
+# Overserver Pattern
+My understanding of the observer patten is you create an initial class which is a blueprint of the API (somewhat of an abstract class) and then have it delegate calls to classes that implement that same API. Insert analogy of a mask that I can't articulate well here.
+
+By using this pattern we increase our amount of lines by about 50%, and add two additional files. But we gain clarity of what each class' purpose is, using the single responsibility principle. We also allow for additional alerters to easily be created in the future. If we were to add another alerter, before using this pattern, we would have a bunch of nested conditionals and ugly branching that's hard to read. Instead, we make the decision 1 time of what we want to use and then use it.
+![](https://github.com/thesimpledev/job_search/blob/master/readme/observer.png?raw=true)
 
 # Performance
 YAML File Storage w/ Hash Data Structure vs. SQLite3 w/ Active Record

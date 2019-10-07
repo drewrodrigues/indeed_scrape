@@ -37,7 +37,7 @@ class PointAllocation
 
   def match(keywords, text, attribute)
     keywords.each do |word, value|
-      if text.scan(word)
+      if text.match(word)
         self.points += value
         send(attribute) << word
       end

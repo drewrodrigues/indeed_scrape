@@ -19,7 +19,7 @@ class AlertDebug
     end
 
     def on_page(number)
-      puts()"On page: #{number}".white.on_magenta)
+      puts("On page: #{number}".white.on_magenta)
     end
 
     def timeout(message)

@@ -1,7 +1,7 @@
 require 'colorize'
 require_relative '../config/settings'
-require_relative 'alert_debug'
-require_relative 'alert_simple'
+require_relative 'alerts/alert_debug'
+require_relative 'alerts/alert_simple'
 
 # responsible for formatting alerts based upon some conditions
 class Alert

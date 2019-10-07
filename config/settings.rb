@@ -13,7 +13,8 @@ SETTINGS = {
   # ],
 
   position_exclusions: [
-    ' IT ',
+    ' it ',
+    ' sr ',
     '2020',
     'analyst',
     'angular',

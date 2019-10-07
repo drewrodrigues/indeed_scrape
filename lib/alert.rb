@@ -1,75 +1,39 @@
 require 'colorize'
 require_relative '../config/settings'
-
-# TODO: use decorator design pattern to do a simple & debugging alerts
+require_relative 'alert_debug'
+require_relative 'alert_simple'
 
 # responsible for formatting alerts based upon some conditions
 class Alert
-  def self.of_pass_of_fail_for(job)
-    if job.passing_score?
-      if SETTINGS[:simple_output]
-        print ' √ '.green
-      else
-        puts "Passed, '#{job.position}' with points: #{job.points}!"
-          .black
-          .on_green
-      end
-    else
-      if SETTINGS[:simple_output]
-        print ' X '.red
-      else
-        puts "Failed, '#{job.position}' with points: #{job.points}.".red
-      end
-    end
-  end
+  SELECTED_ALERTER = SETTINGS[:simple_output] ? AlertSimple : AlertDebug
 
-  def self.already_saved
-    if SETTINGS[:simple_output]
-      print ' ↓ '.light_blue
-    else
-      puts 'Already saved!'.light_blue
+  class << self
+    def of_pass_or_fail_for(job)
+      SELECTED_ALERTER.of_pass_or_fail_for(job)
     end
-  end
 
-  def self.prime
-    if SETTINGS[:simple_output]
-      print ' → '.yellow
-    else
-      puts 'Is prime, skipping.'.yellow
+    def already_saved
+      SELECTED_ALERTER.already_saved
     end
-  end
 
-  def self.on_page(page_number)
-    if SETTINGS[:simple_output]
-      print "\nPage: #{page_number} ".magenta
-    else
-      puts "On page: #{page_number}".white.on_magenta
+    def prime
+      SELECTED_ALERTER.prime
     end
-  end
 
-  def self.timeout(message)
-    if SETTINGS[:simple_output]
-      print ' X '.red.on_white
-    else
-      puts message.red.on_white
+    def on_page(page_number)
+      SELECTED_ALERTER.on_page(page_number)
     end
-  end
 
-  def self.bad_position(position)
-    if SETTINGS[:simple_output]
-      print ' → '.red
-    else
-      puts "Bad position (#{position}), skipping".light_blue
+    def timeout(message)
+      SELECTED_ALERTER.timeout(message)
     end
-  end
 
-  def self.start_search(position, location)
-    if SETTINGS[:simple_output]
-      puts "Searching #{position} @ #{location} ".magenta
-    else
-      puts '-' * 20
-      puts "Searching: #{position} @ #{location}"
-      puts '-' * 20
+    def bad_position(position)
+      SELECTED_ALERTER.bad_position(position)
+    end
+
+    def start_search(position, location)
+      SELECTED_ALERTER.start_search(position, location)
     end
   end
 end

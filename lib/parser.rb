@@ -61,7 +61,7 @@ class Parser
 
   def job_from_card(job_card)
     job = parse_job_posting(job_card)
-    Alert.of_pass_of_fail_for(job)
+    Alert.of_pass_or_fail_for(job)
     job
   end
 

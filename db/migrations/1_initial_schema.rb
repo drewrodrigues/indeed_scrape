@@ -1,8 +1,8 @@
 require 'active_record'
 
 ActiveRecord::Base.establish_connection(
-  adapter: 'sqlite3',
-  database: './job_search.db'
+  adapter: 'postgresql',
+  database: 'better_jobs'
 )
 
 ActiveRecord::Schema.define do

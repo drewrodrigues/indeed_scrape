@@ -8,8 +8,8 @@ require_relative 'point_allocation'
 require_relative '../config/settings'
 
 ActiveRecord::Base.establish_connection(
-  adapter: 'sqlite3',
-  database: './job_search.db'
+  adapter: 'postgresql',
+  database: 'better_jobs'
 )
 
 # pull together objects to perform their individual jobs

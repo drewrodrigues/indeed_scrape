@@ -10,8 +10,8 @@ I will give a brief overview of why I've built this and how it works from a high
 # Setup
 > Make sure you have postgresql first (https://postgresapp.com/)
 1. run `psql`, then `CREATE TABLE better_jobs;`
-2. bundle install
-3. run `ruby db/migrations/1_initial_schema.rb` then `ruby db/migrations/2_remove_review_status.rb`
+> Careful, the following will drop the database and recreate it. If you have data that you want to keep already, don't run this.
+2. rake `setup`
 
 # Settings
 All settings can be found in **`config/settings.rb`**. I have mine checked into version control as a example of how to approach the file. Feel free to delete my settings to insert your own.

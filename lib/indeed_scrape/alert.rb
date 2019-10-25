@@ -1,7 +1,7 @@
 # responsible for formatting alerts based upon some conditions
 module IndeedScrape
   class Alert
-    SELECTED_ALERTER = SETTINGS[:simple_output] ? AlertSimple : AlertDebug
+    SELECTED_ALERTER = Settings.simple_output ? AlertSimple : AlertDebug
 
     class << self
       def of_pass_or_fail_for(job)

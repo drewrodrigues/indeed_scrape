@@ -91,7 +91,7 @@ module IndeedScrape
     end
 
     def bad_position?(job_card)
-      bad_position = SETTINGS[:position_exclusions].find { |title| job_card.text.downcase.include?(title) }
+      bad_position = Settings.position_exclusions.find { |title| job_card.text.downcase.include?(title) }
       if bad_position
         Alert.bad_position(bad_position)
         true

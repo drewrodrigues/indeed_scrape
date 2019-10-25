@@ -13,7 +13,7 @@ module IndeedScrape
     end
 
     def passing_score?
-      points >= SETTINGS[:passing_points]
+      points >= Settings.passing_points
     end
 
     private
@@ -26,11 +26,11 @@ module IndeedScrape
     end
 
     def allocate_good_matches(text)
-      match(SETTINGS[:good_keywords], text, :good_matches)
+      match(Settings.good_keywords, text, :good_matches)
     end
 
     def allocate_bad_matches(text)
-      match(SETTINGS[:bad_keywords], text, :bad_matches)
+      match(Settings.bad_keywords, text, :bad_matches)
     end
 
     def match(keywords, text, attribute)

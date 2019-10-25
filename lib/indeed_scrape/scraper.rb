@@ -17,8 +17,8 @@ module IndeedScrape
 
     def run
       system('clear')
-      SETTINGS[:places].shuffle.each do |location|
-        SETTINGS[:positions].shuffle.each do |position|
+      Settings.places.shuffle.each do |location|
+        Settings.positions.shuffle.each do |position|
           begin
             Alert.start_search(position, location)
             browser.search(position, location)

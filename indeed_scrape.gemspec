@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'indeed_scrape'
-  s.version = '0.1.2'
+  s.version = '0.2.1'
   s.date = '2019-10-24'
   s.summary = 'Scrape and search Indeed jobs using keywords and points'
   s.authors = ['Drew Rodrigues']

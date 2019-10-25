@@ -1,6 +1,8 @@
 module IndeedScrape
   class Settings
     class << self
+      attr_writer :database_name, :database_adapter
+
       def config
         yield(self)
       end

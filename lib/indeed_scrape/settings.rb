@@ -13,7 +13,9 @@ module IndeedScrape
           :good_keywords,
           :bad_keywords,
           :passing_points,
-          :simple_output
+          :simple_output,
+          :database_name,
+          :database_adapter
         ].each do |class_variable|
           puts("#{class_variable}: #{send(class_variable)}")
         end
@@ -101,6 +103,14 @@ module IndeedScrape
 
       def simple_output
         @@simple_output ||= false
+      end
+
+      def database_name
+        @@database_name ||= 'indeed_scrape'
+      end
+
+      def database_adapter
+        @@database_adapter ||= 'postgresql'
       end
     end
   end

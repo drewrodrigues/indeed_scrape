@@ -4,8 +4,8 @@ require 'selenium-webdriver'
 require 'tty-table'
 
 module IndeedScrape
-  require_relative '../db/connection'
   require_relative 'indeed_scrape/settings'
+  require_relative '../db/connection'
   require_relative 'indeed_scrape/alerts/alert_debug'
   require_relative 'indeed_scrape/alerts/alert_simple'
   require_relative 'indeed_scrape/alert'

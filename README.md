@@ -1,10 +1,80 @@
+* [About](#about)
 * [Setup](#setup)
-* [Performance](#performance)
+* [Settings](#settings)
+* [Performance](#performance) - a small experiment I wanted to do
 
-## Setup
+# About
+I will give a brief overview of why I've built this and how it works from a high level soon!
+
+# Setup
 I will be adding information on how to set this up soon! :D
 
-## Performance
+# Settings
+All settings can be found in **`config/settings.rb`**. I have mine checked into version control as a example of how to approach the file. Feel free to delete my settings to insert your own.
+
+### Places & Positions
+Multiple places and positions can be searched back to back. For example, if you want to search California and Arizona for Software Engineer and Web Developer positions the following searches will take place:
+* Searching `California` for `Software Engineer`
+* Searching `California` for `Web Developer`
+* Searching `Arizona` for `Software Engineer`
+* Searching `Arizona` for `Web Developer`
+
+And the settings would look like the following:
+```ruby
+places: ['California', 'Arizona'],
+positions: ['Software Engineer', 'Web Developer'],
+```
+
+### Position Exclusions
+Position exclusions allows us to completely skip over job postings with certain words in the title, in turn making the search quicker since we don't have to click on and parse irrelevant job postings. Say we don't want positions with `senior` or `php` in the title. The settings would look like the following:
+
+```ruby
+position_exclusions: ['senior', 'php']
+```
+
+Also, please note position exclusions are **`downcased`**. That is because when the job posting is parsed, it is completely downcased when checking matches.
+
+### Good Keywords
+Good keywords allow us to figure out how good a fit this position may be for us. Say we have `passing_points: 50` and we really want beer on tap at our next position (let's be honest, who doesn't). A good approach to this would be the following configuration to make the position pass no matter what if beer is on tap (if there's beer who cares if we have to write c right?
+```ruby
+# make sure these are all downcased
+good_keywords: {'beer on tap': 1_000_000}
+```
+
+### Bad Keywords
+Setting bad keywords is a great way to exclude keywords that normally wouldn't in the title of the job posting. Say you don't want to match posts from certain company, or onces that want you to work with certain technologies. This is the perfect place for those.
+```ruby
+# make sure these are all downcased
+bad_keywords: {'previous company name': -1_000_000, 'assembly': -1_000_000}
+```
+
+### Passing Points
+Setting a passing_point setting is related to how you allocate your good and bad keywords. If you set this too high and are too strict on good keywords points, you'll have almost no matches if any. There's a balance. You'll find it young grass hopper.
+```ruby
+passing_points: 50
+```
+
+### Output
+```ruby
+# Simple output allows you to see a lot of simplified information and is set by default.
+simple_ouput: true
+```
+![](https://github.com/thesimpledev/job_search/blob/master/readme/simple_output.png?raw=true)
+
+* ![](https://github.com/thesimpledev/job_search/blob/master/readme/already_saved.png) Already saved
+* ![](https://github.com/thesimpledev/job_search/blob/master/readme/check.png?raw=true) Passed
+* ![](https://github.com/thesimpledev/job_search/blob/master/readme/failed.png?raw=true) Failed
+* ![](https://github.com/thesimpledev/job_search/blob/master/readme/error.png?raw=true) Some error occurred
+* ![](https://github.com/thesimpledev/job_search/blob/master/readme/prime.png) Prime (skipped)
+* ![](https://github.com/thesimpledev/job_search/blob/master/readme/title_skip.png) Skipped from title exclusion
+
+```ruby
+# More comprehensive output, which can also help with any debugging.
+simple_ouput: false
+```
+![](https://github.com/thesimpledev/job_search/blob/master/readme/non_simple_output.png?raw=true)
+
+# Performance
 YAML File Storage w/ Hash Data Structure vs. SQLite3 w/ Active Record
 
 #### Approach

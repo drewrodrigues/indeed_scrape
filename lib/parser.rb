@@ -1,14 +1,13 @@
-require_relative 'job_posting'
+require_relative 'job'
 require_relative 'alert'
 
 # responsible for pulling data from page to return job postings
 class Parser
-  attr_reader :browser, :driver, :storage, :wait
+  attr_reader :browser, :driver, :wait
 
-  def initialize(driver, browser, storage, wait)
+  def initialize(driver, browser, wait)
     @driver = driver
     @browser = browser
-    @storage = storage
     @wait = wait
   end
 
@@ -23,7 +22,7 @@ class Parser
       begin
         go_to_card(job_card, i)
         job = job_from_card(job_card)
-        jobs << job if job
+        job.save
       rescue => e
         # TODO: fixme, figure out why this is breaking
         # puts "*" * 20
@@ -39,7 +38,7 @@ class Parser
   private
 
   def already_saved?(job_card)
-    return nil unless storage.already_saved?(job_card)
+    return nil unless Job.find_by(job_id: job_card.attribute('id'))
 
     Alert.already_saved
     true
@@ -79,7 +78,7 @@ class Parser
   end
 
   def parse_job_posting(job_card)
-    JobPosting.new(pull_data_from_page(job_card))
+    Job.new(pull_data_from_page(job_card))
   end
 
   def pull_data_from_page(job_card)
@@ -88,7 +87,7 @@ class Parser
       company: driver.find_element(id: 'vjs-cn').text,
       location: driver.find_element(id: 'vjs-loc').text,
       description: driver.find_element(id: 'vjs-content').text,
-      id: job_card.attribute('id'),
+      job_id: job_card.attribute('id'),
       url: job_card.find_element(tag_name: 'a').attribute('href')
     }
   end

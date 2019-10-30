@@ -1,17 +1,14 @@
-require_relative 'storage'
 require_relative 'browser'
 require 'tty-table'
 
 class Review
-  attr_reader :browser, :storage
+  attr_reader :browser
 
   def self.start
     new
   end
 
   def initialize
-    self.storage = Storage.new
-
     loop do
       system('clear')
       display

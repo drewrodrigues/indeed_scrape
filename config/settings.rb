@@ -1,19 +1,9 @@
 SETTINGS = {
   places: [
-    'Boston, MA',
-    'Chicago, IL',
-    'Denver, Colorado',
     'Hawaii',
-    'Miami, Florida',
-    'Nashville, Tennessee',
     'New York, New York',
-    'Portland, Oregon',
     'Remote',
-    'San Diego, California',
     'San Francisco Bay Area, CA',
-    'Seattle, Washington',
-    'Texas',
-    'United States'
   ],
 
   positions: ['Software Engineer'],
